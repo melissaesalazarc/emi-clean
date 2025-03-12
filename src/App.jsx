@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Services from './pages/Services';
+import Navbar from './components/Navbar';
 
 import './App.css'
 
@@ -15,25 +16,7 @@ function App() {
   return (
     <Router>
       {/* Navbar */}
-      <nav className="bg-blue-600 p-4">
-        <ul className="flex space-x-4 text-white">
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/about">Acerca de</Link>
-          </li>
-          <li>
-            <Link to="/products">Productos</Link>
-          </li>
-          <li>
-            <Link to="/services">Servicios</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contacto</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
 
       {/* Rutas */}
       <Routes>
@@ -46,5 +29,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
