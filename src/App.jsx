@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Services from './pages/Services';
 import Navbar from './components/Navbar';
+import './colors.css'
 
 import './App.css'
 

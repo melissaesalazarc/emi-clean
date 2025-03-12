@@ -1,20 +1,22 @@
 import React from 'react';
 
-export default function Home({ count, setCount }) {
+// src/pages/Home.jsx
+export default function Home() {
     return (
-      <div className="bg-gris-claro min-h-screen p-8">
+      <div style={{ backgroundColor: 'var(--gris-claro)' }} className="min-h-screen p-8">
         {/* Hero Section */}
-        <div className="bg-blanco-puro py-20 rounded-lg shadow-md">
+        <div style={{ backgroundColor: 'var(--blanco-puro)' }} className="py-20 rounded-lg shadow-md">
           <div className="max-w-4xl mx-auto text-center px-4">
-            <h1 className="text-5xl font-bold text-turquesa-oscuro mb-6">
+            <h1 style={{ color: 'var(--turquesa-oscuro)' }} className="text-5xl font-bold mb-6">
               Bienvenidos a EmiClean
             </h1>
-            <p className="text-xl text-turquesa-claro mb-8">
+            <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-8">
               Productos de limpieza de alta calidad para tu hogar y negocio.
             </p>
             <a
               href="#productos"
-              className="bg-turquesa-claro text-blanco-puro px-8 py-3 rounded-lg hover:bg-turquesa-oscuro transition duration-300"
+              style={{ backgroundColor: 'var(--turquesa-claro)', color: 'var(--blanco-puro)' }}
+              className="px-8 py-3 rounded-lg hover:bg-turquesa-oscuro transition duration-300"
             >
               Ver Productos
             </a>
@@ -24,18 +26,18 @@ export default function Home({ count, setCount }) {
         {/* Sección de Productos Destacados */}
         <div id="productos" className="py-16">
           <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-turquesa-oscuro mb-12">
+            <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-3xl font-bold text-center mb-12">
               Nuestros Productos Destacados
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Producto 1 */}
-              <div className="bg-blanco-puro p-6 rounded-lg shadow-lg text-center">
+              <div style={{ backgroundColor: 'var(--blanco-puro)' }} className="p-6 rounded-lg shadow-lg text-center">
                 <img
                   src="https://via.placeholder.com/150"
                   alt="Producto 1"
                   className="mx-auto mb-4"
                 />
-                <h3 className="text-xl font-bold text-turquesa-oscuro mb-2">
+                <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2">
                   Limpiador Multiusos
                 </h3>
                 <p className="text-gray-700">
@@ -44,13 +46,13 @@ export default function Home({ count, setCount }) {
               </div>
   
               {/* Producto 2 */}
-              <div className="bg-blanco-puro p-6 rounded-lg shadow-lg text-center">
+              <div style={{ backgroundColor: 'var(--blanco-puro)' }} className="p-6 rounded-lg shadow-lg text-center">
                 <img
                   src="https://via.placeholder.com/150"
                   alt="Producto 2"
                   className="mx-auto mb-4"
                 />
-                <h3 className="text-xl font-bold text-turquesa-oscuro mb-2">
+                <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2">
                   Detergente Líquido
                 </h3>
                 <p className="text-gray-700">
@@ -59,13 +61,13 @@ export default function Home({ count, setCount }) {
               </div>
   
               {/* Producto 3 */}
-              <div className="bg-blanco-puro p-6 rounded-lg shadow-lg text-center">
+              <div style={{ backgroundColor: 'var(--blanco-puro)' }} className="p-6 rounded-lg shadow-lg text-center">
                 <img
                   src="https://via.placeholder.com/150"
                   alt="Producto 3"
                   className="mx-auto mb-4"
                 />
-                <h3 className="text-xl font-bold text-turquesa-oscuro mb-2">
+                <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2">
                   Desinfectante
                 </h3>
                 <p className="text-gray-700">
@@ -77,14 +79,15 @@ export default function Home({ count, setCount }) {
         </div>
   
         {/* Llamado a la Acción (CTA) */}
-        <div className="bg-verde-lima py-16">
+        <div style={{ backgroundColor: 'var(--verde-lima)' }} className="py-16">
           <div className="max-w-4xl mx-auto text-center px-4">
-            <h2 className="text-3xl font-bold text-turquesa-oscuro mb-6">
+            <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-3xl font-bold mb-6">
               ¿Listo para probar nuestros productos?
             </h2>
             <a
               href="/contact"
-              className="bg-amarillo-pastel text-turquesa-oscuro px-8 py-3 rounded-lg hover:bg-turquesa-claro transition duration-300"
+              style={{ backgroundColor: 'var(--amarillo-pastel)', color: 'var(--turquesa-oscuro)' }}
+              className="px-8 py-3 rounded-lg hover:bg-turquesa-claro transition duration-300"
             >
               Contáctanos
             </a>

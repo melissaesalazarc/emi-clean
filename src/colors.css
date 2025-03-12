@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --turquesa-oscuro: #087989;
+    --turquesa-claro: #178FA8;
+    --blanco-puro: #FFFFFF;
+    --gris-claro: #F0F4F8;
+    --verde-lima: #A3D977;
+    --amarillo-pastel: #F9D976;
+}

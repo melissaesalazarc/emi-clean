@@ -6,37 +6,37 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-turquesa-oscuro p-4">
+    <nav style={{ backgroundColor: 'var(--turquesa-oscuro)' }} className="p-4">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-blanco-puro">
+        <Link to="/" style={{ color: 'var(--blanco-puro)' }} className="text-2xl font-bold">
           EmiClean
         </Link>
 
         {/* Menú para desktop */}
-        <ul className="hidden md:flex space-x-8 text-blanco-puro">
+        <ul className="hidden md:flex space-x-8" style={{ color: 'var(--blanco-puro)' }}>
           <li>
-            <Link to="/" className="hover:text-turquesa-claro">
+            <Link to="/" style={{ color: 'var(--blanco-puro)' }} className="hover:text-turquesa-claro">
               Inicio
             </Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-turquesa-claro">
+            <Link to="/about" style={{ color: 'var(--blanco-puro)' }} className="hover:text-turquesa-claro">
               Acerca de
             </Link>
           </li>
           <li>
-            <Link to="/products" className="hover:text-turquesa-claro">
+            <Link to="/products" style={{ color: 'var(--blanco-puro)' }} className="hover:text-turquesa-claro">
               Productos
             </Link>
           </li>
           <li>
-            <Link to="/services" className="hover:text-turquesa-claro">
+            <Link to="/services" style={{ color: 'var(--blanco-puro)' }} className="hover:text-turquesa-claro">
               Servicios
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-turquesa-claro">
+            <Link to="/contact" style={{ color: 'var(--blanco-puro)' }} className="hover:text-turquesa-claro">
               Contacto
             </Link>
           </li>
@@ -45,7 +45,8 @@ const Navbar = () => {
         {/* Botón para móvil */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-blanco-puro focus:outline-none"
+          style={{ color: 'var(--blanco-puro)' }}
+          className="md:hidden focus:outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -74,29 +75,29 @@ const Navbar = () => {
 
       {/* Menú para móvil */}
       {isOpen && (
-        <ul className="md:hidden mt-4 space-y-2 text-blanco-puro">
+        <ul className="md:hidden mt-4 space-y-2" style={{ color: 'var(--blanco-puro)' }}>
           <li>
-            <Link to="/" className="block py-2 hover:text-turquesa-claro">
+            <Link to="/" style={{ color: 'var(--blanco-puro)' }} className="block py-2 hover:text-turquesa-claro">
               Inicio
             </Link>
           </li>
           <li>
-            <Link to="/about" className="block py-2 hover:text-turquesa-claro">
+            <Link to="/about" style={{ color: 'var(--blanco-puro)' }} className="block py-2 hover:text-turquesa-claro">
               Acerca de
             </Link>
           </li>
           <li>
-            <Link to="/products" className="block py-2 hover:text-turquesa-claro">
+            <Link to="/products" style={{ color: 'var(--blanco-puro)' }} className="block py-2 hover:text-turquesa-claro">
               Productos
             </Link>
           </li>
           <li>
-            <Link to="/services" className="block py-2 hover:text-turquesa-claro">
+            <Link to="/services" style={{ color: 'var(--blanco-puro)' }} className="block py-2 hover:text-turquesa-claro">
               Servicios
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="block py-2 hover:text-turquesa-claro">
+            <Link to="/contact" style={{ color: 'var(--blanco-puro)' }} className="block py-2 hover:text-turquesa-claro">
               Contacto
             </Link>
           </li>
