@@ -30,7 +30,7 @@ const Home = () => {
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 5000, // Cambia de imagen cada 5 segundos
+      delay: 3000, // Cambia de imagen cada 5 segundos
       disableOnInteraction: false,
     },
     pagination: {
@@ -41,7 +41,7 @@ const Home = () => {
   // MARCAS
   const marcasSwiperParams = {
     modules: [Autoplay, Navigation],
-    spaceBetween: 30,
+    spaceBetween: 30, //margen entre cada uno
     slidesPerView: 'auto', // Muestra las marcas en una línea horizontal
     loop: true, // Activar el modo loop
     autoplay: {
@@ -52,9 +52,11 @@ const Home = () => {
     breakpoints: {
       // Ajustes responsivos
       640: {
+        spaceBetween: 20,
         slidesPerView: 3,
       },
       1024: {
+        spaceBetween: 30,
         slidesPerView: 5,
       },
     },
@@ -173,7 +175,7 @@ const Home = () => {
 
        {/* MARCAS */}
        <div className="py-16 bg-gris-claro">
-      <div className="max-w-6xl mx-auto px-4 text-center">
+      <div className="max-w-8xl mx-auto px-4 text-center">
         {/* Título */}
         <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-4xl font-bold mb-4">
           Marcas con las que trabajamos
@@ -183,68 +185,68 @@ const Home = () => {
           Colaboramos con marcas pioneras en la industria para ofrecerte productos de la más alta calidad.
         </p>
 
-{/* Carrusel de Marcas */}
+        {/* Carrusel de Marcas */}
         <Swiper {...marcasSwiperParams} className="w-full">
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca1}
                 alt="Marca 1"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca2}
                 alt="Marca 2"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca3}
                 alt="Marca 3"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca4}
                 alt="Marca 4"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca5}
                 alt="Marca 5"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca6}
                 alt="Marca 6"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
                 src={marca7}
                 alt="Marca 7"
-                className="mx-auto w-32 h-32 object-contain"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
               />
             </div>
           </SwiperSlide>
