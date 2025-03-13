@@ -30,7 +30,7 @@ const Home = () => {
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 3000, // Cambia de imagen cada 5 segundos
+      delay: 5000, // Cambia de imagen cada 5 segundos
       disableOnInteraction: false,
     },
     pagination: {
@@ -70,7 +70,7 @@ const Home = () => {
       <div className="w-full h-[500px] relative">
         <Swiper {...swiperParams} className="w-full h-full">
           <SwiperSlide>
-            <video
+            <img
               src={baemi}
               alt="Baemi"
               className="w-full h-full object-cover"
@@ -81,7 +81,7 @@ const Home = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-            <video
+            <img
               src={industrias}
               alt="Industrias"
               className="w-full h-full object-cover"
@@ -92,7 +92,7 @@ const Home = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-            <video
+            <img
               src={spray}
               alt="Spray"
               className="w-full h-full object-cover"
