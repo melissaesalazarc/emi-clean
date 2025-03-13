@@ -11,6 +11,17 @@ import ejemplo1 from '../images/ejemplo1.jpg';
 import ejemplo2 from '../images/ejemplo2.png';
 import ejemplo3 from '../images/ejemplo3.png';
 
+import marca1 from '../images/marca1.png';
+import marca2 from '../images/marca2.png';
+import marca3 from '../images/marca3.png';
+import marca4 from '../images/marca4.png';
+import marca5 from '../images/marca5.png';
+import marca6 from '../images/marca6.png';
+import marca7 from '../images/marca7.png';
+
+
+
+
 const Home = () => {
   // Configuración del carrusel
   const swiperParams = {
@@ -27,7 +38,30 @@ const Home = () => {
     },
     navigation: true,
   };
+  // MARCAS
+  const marcasSwiperParams = {
+    modules: [Autoplay, Navigation],
+    spaceBetween: 30,
+    slidesPerView: 'auto', // Muestra las marcas en una línea horizontal
+    loop: true, // Activar el modo loop
+    autoplay: {
+      delay: 3000, // Cambia de marca cada 3 segundos
+      disableOnInteraction: false,
+    },
+    navigation: true, // Flechas de navegación
+    breakpoints: {
+      // Ajustes responsivos
+      640: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 5,
+      },
+    },
+  };
 
+
+  
   return (
     <div className="min-h-screen w-full">
       {/* Carrusel de imágenes */}
@@ -56,6 +90,8 @@ const Home = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+
+      
 
       {/* Sección de Productos Destacados */}
       <div id="productos" className="py-16 bg-gris-claro">
@@ -135,6 +171,87 @@ const Home = () => {
 
      
 
+       {/* MARCAS */}
+       <div className="py-16 bg-gris-claro">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        {/* Título */}
+        <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-4xl font-bold mb-4">
+          Marcas con las que trabajamos
+        </h2>
+        {/* Descripción */}
+        <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
+          Colaboramos con marcas pioneras en la industria para ofrecerte productos de la más alta calidad.
+        </p>
+
+{/* Carrusel de Marcas */}
+        <Swiper {...marcasSwiperParams} className="w-full">
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca1}
+                alt="Marca 1"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca2}
+                alt="Marca 2"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca3}
+                alt="Marca 3"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca4}
+                alt="Marca 4"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca5}
+                alt="Marca 5"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca6}
+                alt="Marca 6"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-6 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca7}
+                alt="Marca 7"
+                className="mx-auto w-32 h-32 object-contain"
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </div>
+
       {/* Sección Sobre Nosotros */}
       <div className="relative h-[400px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url('https://via.placeholder.com/1200x400?text=Fondo+Sobre+Nosotros')` }}>
         {/* Overlay para oscurecer la imagen de fondo */}
@@ -157,6 +274,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
 
  {/* Llamado a la Acción (CTA) */}
       <div style={{ backgroundColor: 'var(--verde-lima)' }} className="py-16">
