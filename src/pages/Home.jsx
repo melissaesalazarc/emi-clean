@@ -11,13 +11,19 @@ import baemi from '../videos/baemi_home.mp4';
 import industrias from '../videos/industrias_home.mp4';
 import spray from '../videos/spray_home.mp4';
 
-import marca1 from '../images/marca1.png';
-import marca2 from '../images/marca2.png';
-import marca3 from '../images/marca3.png';
-import marca4 from '../images/marca4.png';
-import marca5 from '../images/marca5.png';
-import marca6 from '../images/marca6.png';
-import marca7 from '../images/marca7.png';
+import marca1 from '../images/home/marca1.png';
+import marca2 from '../images/home/marca2.png';
+import marca3 from '../images/home/marca3.png';
+import marca4 from '../images/home/marca4.png';
+import marca5 from '../images/home/marca5.png';
+import marca6 from '../images/home/marca6.png';
+import marca7 from '../images/home/marca7.png';
+
+import articulosLimpieza from '../images/home/articulosLimpieza.png';
+import lavadoAutomotriz from '../images/home/lavadoAutomotriz.png';
+import liquidosHogar from '../images/home/liquidosHogar.png';
+import papel from '../images/home/papel.png';
+
 
 
 
@@ -116,7 +122,7 @@ const Home = () => {
           </h2>
           {/* Subtítulo */}
           <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
-            Calidad para siempre
+          Calidad, innovación y resultados garantizados. Descubre los productos que marcan la diferencia.
           </p>
 
           {/* Lista de Productos */}
@@ -124,22 +130,24 @@ const Home = () => {
             {/* Producto 1 */}
             <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
-                src="https://via.placeholder.com/150"
+                src={lavadoAutomotriz}
                 alt="Lavado Automotriz"
                 className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
               />
+             
               <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
                 Lavado Automotriz
               </h3>
               <p className="text-gray-700 group-hover:text-blanco-puro">
-                Ideal para todas las superficies. Elimina la suciedad y las bacterias.
+              Brillo impecable y protección superior para tu vehículo. 
+              ¡Descubre nuestros productos!
               </p>
             </div>
 
             {/* Producto 2 */}
             <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
-                src="https://via.placeholder.com/150"
+                src={liquidosHogar}
                 alt="Líquidos para el hogar"
                 className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
               />
@@ -147,14 +155,15 @@ const Home = () => {
                 Líquidos para el hogar
               </h3>
               <p className="text-gray-700 group-hover:text-blanco-puro">
-                Formulado para dejar tu ropa limpia y con un aroma fresco.
+              Limpieza profunda y frescura en cada rincón de tu hogar. 
+              ¡Transforma tu espacio con nuestra línea de líquidos especializados!
               </p>
             </div>
 
             {/* Producto 3 */}
             <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
-                src="https://via.placeholder.com/150"
+                src={articulosLimpieza}
                 alt="Artículos de Limpieza"
                 className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
               />
@@ -162,21 +171,21 @@ const Home = () => {
                 Artículos de Limpieza
               </h3>
               <p className="text-gray-700 group-hover:text-blanco-puro">
-                Elimina el 99.9% de los gérmenes y bacterias.
+              Mantén tu espacio impecable con nuestra selección de artículos de limpieza esenciales.
               </p>
             </div>
             {/* Producto 4 */}
             <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
               <img
-                src="https://via.placeholder.com/150"
-                alt="Productos de Línea"
+                src={papel}
+                alt="Papel y Bolsas de Basura"
                 className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
               />
               <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
-                Productos de Línea
+              Papel y Bolsas de Basura
               </h3>
               <p className="text-gray-700 group-hover:text-blanco-puro">
-                Elimina el 99.9% de los gérmenes y bacterias.
+              Soluciones confiables para el manejo de residuos y la higiene diaria. ¡Descúbrelas!
               </p>
             </div>
           </div>
@@ -194,8 +203,9 @@ const Home = () => {
         </h2>
         {/* Descripción */}
         <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
-          Colaboramos con marcas pioneras en la industria para ofrecerte productos de la más alta calidad.
-        </p>
+        Calidad que perdura, innovación que inspira. Nuestros productos de línea han sido 
+        cuidadosamente seleccionados para brindarte lo mejor en funcionalidad y estilo.
+                </p>
 
         {/* Carrusel de Marcas */}
         <Swiper {...marcasSwiperParams} className="w-full">
