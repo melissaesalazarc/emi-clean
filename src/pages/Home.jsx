@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 // Importar las imágenes desde la carpeta images
 import baemi from '../videos/baemi_home.mp4';
@@ -23,6 +24,9 @@ import articulosLimpieza from '../images/home/articulosLimpieza.png';
 import lavadoAutomotriz from '../images/home/lavadoAutomotriz.png';
 import liquidosHogar from '../images/home/liquidosHogar.png';
 import papel from '../images/home/papel.png';
+
+import limpieza from '../images/home/limpieza.png';
+
 
 
 
@@ -277,27 +281,36 @@ const Home = () => {
     </div>
 
       {/* Sección Sobre Nosotros */}
-      <div className="relative h-[400px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url('https://via.placeholder.com/1200x400?text=Fondo+Sobre+Nosotros')` }}>
-        {/* Overlay para oscurecer la imagen de fondo */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div
+      className="relative h-[500px] flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${limpieza})` }}
+    >
+      {/* Overlay para oscurecer la imagen de fondo */}
+      <div className="absolute inset-0 bg-black opacity-40"></div>
 
-        {/* Recuadro con información */}
-        <div className="relative z-10 bg-blanco-puro p-8 rounded-lg shadow-lg max-w-2xl text-center">
-          <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-3xl font-bold mb-4">
-            Sobre Nosotros
-          </h2>
-          <p style={{ color: 'var(--turquesa-claro)' }} className="text-lg mb-6">
-            En EmiClean, nos dedicamos a ofrecer productos de limpieza de la más alta calidad para tu hogar y negocio. Nuestra misión es ayudarte a mantener tus espacios limpios y seguros.
-          </p>
-          <Link
-            to="/about"
-            style={{ backgroundColor: 'var(--turquesa-claro)', color: 'var(--blanco-puro)' }}
-            className="px-6 py-3 rounded-lg hover:bg-turquesa-oscuro transition duration-300"
-          >
-            Conócenos Más
-          </Link>
-        </div>
-      </div>
+      {/* Recuadro con información (animado con Framer Motion) */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }} // Estado inicial: invisible y desplazado hacia abajo
+        whileInView={{ opacity: 1, y: 0 }} // Estado final: visible y en su posición original
+        transition={{ duration: 0.8, ease: 'easeOut' }} // Duración y tipo de animación
+        viewport={{ twice: true }} // La animación solo se ejecuta una vez
+        className="relative z-10 bg-white bg-opacity-90 p-6 md:p-8 rounded-xl shadow-2xl w-full md:max-w-2xl mx-4 md:mx-8 text-left transform transition-all hover:scale-105 hover:bg-opacity-100"
+      >
+        <h2 className="text-4xl font-bold mb-6 text-[#087989]">
+          Sobre Nosotros
+        </h2>
+        <p className="text-lg mb-8 text-gray-700">
+          Somos más que una comercializadora: somos aliados estratégicos en limpieza y mantenimiento. En Baemi Group, ofrecemos soluciones eficientes y productos innovadores que garantizan calidad, confianza y sostenibilidad.
+        </p>
+        <Link
+          to="/about"
+          className="inline-block px-10 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] hover:from-[#1E40AF] hover:to-[#1E3A8A] transition-all duration-300 transform hover:scale-105 shadow-xl shadow-[#1E3A8A50] hover:shadow-[#1E40AF60] tracking-wide"
+        >
+          Conócenos Más
+        </Link>
+
+      </motion.div>
+    </div>
 
 
  {/* Llamado a la Acción (CTA) */}
