@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer'; // Importa el Footer
 
 // Importar las imágenes desde la carpeta images
 import baemi from '../videos/baemi_home.mp4';
@@ -300,8 +301,10 @@ const Home = () => {
           Sobre Nosotros
         </h2>
         <p className="text-lg mb-8 text-gray-700">
-          Somos más que una comercializadora: somos aliados estratégicos en limpieza y mantenimiento. En Baemi Group, ofrecemos soluciones eficientes y productos innovadores que garantizan calidad, confianza y sostenibilidad.
-        </p>
+        Fabricamos productos químicos de limpieza para el sector 
+        automotriz, hogar, industrial, hotelero y restaurantera, 
+        distribuimos jarcierías específicas para las diferentes áreas de trabajo, 
+        instalacion de equipamiento necesario y servicio de limpieza.        </p>
         <Link
           to="/about"
           className="inline-block px-10 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] hover:from-[#1E40AF] hover:to-[#1E3A8A] transition-all duration-300 transform hover:scale-105 shadow-xl shadow-[#1E3A8A50] hover:shadow-[#1E40AF60] tracking-wide"
@@ -328,6 +331,9 @@ const Home = () => {
           </a>
         </div>
       </div>
+
+    {/*footer*/ }
+    <Footer />
 
     </div>
   );

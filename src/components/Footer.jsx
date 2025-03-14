@@ -1,0 +1,95 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#087989] text-white py-12">
+      <div className="container mx-auto px-4">
+        {/* Sección superior del footer */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          {/* Columna 1: Logo y descripción */}
+          <div className="space-y-4">
+            <h2 className="text-2x1 font-bold">Comercializadora Baemi Group</h2>
+            <p className="text-sm text-gray-200">
+              Soluciones innovadoras para la limpieza y el mantenimiento de tus espacios.
+            </p>
+          </div>
+
+
+            {/* Columna 2: Contacto */}
+            <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Saltillo</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-200">Email: info@emiclean.com</li>
+              <li className="text-gray-200">Teléfono: +52 1 55 4536 0987</li>
+              <li className="text-gray-200">Quintana Roo 931, República Oriente, 25280 Saltillo, Coah.</li>
+            </ul>
+          </div>
+          {/* Columna 3: Contacto */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold">CDMX</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-200">Email: info@emiclean.com</li>
+              <li className="text-gray-200">Teléfono: +52 1 55 4536 0987</li>
+              <li className="text-gray-200">Calle 22-A, no. 77, Santa Rosa, Alcaldia Gustavo A Madero, CDMX</li>
+            </ul>
+          </div>
+
+          {/* Columna 4: Redes sociales */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Síguenos</h3>
+            <div className="flex space-x-4">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
+              >
+                <i className="fab fa-facebook text-2xl"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
+              >
+                <i className="fab fa-twitter text-2xl"></i>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
+              >
+                <i className="fab fa-instagram text-2xl"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
+              >
+                <i className="fab fa-linkedin text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Línea divisoria */}
+        <div className="border-t border-gray-600 my-6"></div>
+
+        {/* Sección inferior del footer */}
+        <div className="text-center text-gray-300 text-sm">
+          <p>
+            &copy; {new Date().getFullYear()} EmiClean. Todos los derechos reservados.
+          </p>
+          <p>
+            Diseñado con  por <span className="font-semibold">TuEquipo</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
