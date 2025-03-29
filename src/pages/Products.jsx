@@ -50,14 +50,16 @@ const Productos = () => {
 
   return (
     <div className="min-h-screen bg-[#F0F4F8]">
-      {/* Hero Section */}
-      <section className="relative py-20 flex items-center justify-center bg-gradient-to-r from-[#087989] to-[#178FA8] text-white">
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Nuestros Productos</h1>
-          <p className="text-xl mb-8">Encuentra todo lo que necesitas para limpieza y mantenimiento</p>
-        </div>
-      </section>
+{/* Hero Section Actualizada */}
+<section className="relative py-20 flex items-center justify-center bg-gradient-to-r from-[#087989] to-[#178FA8] text-white">
+  {/* Cambiamos el overlay negro por un gradiente sutil que combine */}
+  <div className="absolute inset-0 bg-gradient-to-br from-[#087989]/70 to-[#178FA8]/50"></div>
+  
+  <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+    <h1 className="text-4xl md:text-5xl font-bold mb-6">Nuestros Productos</h1>
+    <p className="text-xl mb-8">Encuentra todo lo que necesitas para limpieza y mantenimiento</p>
+  </div>
+</section>
 
       {/* Filtros y Búsqueda */}
       <section className="py-12 px-4 max-w-7xl mx-auto sticky top-0 bg-white shadow-sm z-10">
