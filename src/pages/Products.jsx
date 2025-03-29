@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import Footer from '../components/Footer'; 
 const Productos = () => {
   // Estado para el filtro activo
   const [activeFilter, setActiveFilter] = useState('Todos');
@@ -50,6 +50,8 @@ const Productos = () => {
 
   return (
     <div className="min-h-screen bg-[#F0F4F8]">
+     <div className="flex-grow">
+
 {/* Hero Section Actualizada */}
 <section className="relative py-20 flex items-center justify-center bg-gradient-to-r from-[#087989] to-[#178FA8] text-white">
   {/* Cambiamos el overlay negro por un gradiente sutil que combine */}
@@ -157,6 +159,8 @@ const Productos = () => {
           </Link>
         </div>
       </section>
+    </div>
+    <Footer />
     </div>
   );
 };
