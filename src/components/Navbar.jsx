@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" style={{ color: 'var(--blanco-puro)' }} className="text-2xl font-bold">
-          EmiClean
+          Baemi Group
         </Link>
 
         {/* Menú para desktop */}

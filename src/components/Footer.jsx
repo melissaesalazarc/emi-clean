@@ -20,8 +20,8 @@ const Footer = () => {
             <div className="space-y-4">
             <h3 className="text-lg font-semibold">Saltillo</h3>
             <ul className="space-y-2">
-              <li className="text-gray-200">Email: info@emiclean.com</li>
-              <li className="text-gray-200">Teléfono: +52 1 55 4536 0987</li>
+              <li className="text-gray-200">Email: baemi.group@gmail.com</li>
+              <li className="text-gray-200">Teléfono: +52 1 844 405 9196</li>
               <li className="text-gray-200">Quintana Roo 931, República Oriente, 25280 Saltillo, Coah.</li>
             </ul>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">CDMX</h3>
             <ul className="space-y-2">
-              <li className="text-gray-200">Email: info@emiclean.com</li>
+              <li className="text-gray-200">Email: baemi.group@gmail.com</li>
               <li className="text-gray-200">Teléfono: +52 1 55 4536 0987</li>
               <li className="text-gray-200">Calle 22-A, no. 77, Santa Rosa, Alcaldia Gustavo A Madero, CDMX</li>
             </ul>
@@ -81,10 +81,7 @@ const Footer = () => {
         {/* Sección inferior del footer */}
         <div className="text-center text-gray-300 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} EmiClean. Todos los derechos reservados.
-          </p>
-          <p>
-            Diseñado con  por <span className="font-semibold">TuEquipo</span>
+            &copy; {new Date().getFullYear()} Baemi Group. Todos los derechos reservados.
           </p>
         </div>
       </div>

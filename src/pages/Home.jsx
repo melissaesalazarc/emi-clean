@@ -300,37 +300,83 @@ const Home = () => {
         <h2 className="text-4xl font-bold mb-6 text-[#087989]">
           Sobre Nosotros
         </h2>
-        <p className="text-lg mb-8 text-gray-700">
+        <p className="text-lg mb-8 text-gray-700 text-justify">
         Fabricamos productos químicos de limpieza para el sector 
         automotriz, hogar, industrial, hotelero y restaurantera, 
         distribuimos jarcierías específicas para las diferentes áreas de trabajo, 
         instalacion de equipamiento necesario y servicio de limpieza.        </p>
         <Link
-          to="/about"
-          className="inline-block px-10 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] hover:from-[#1E40AF] hover:to-[#1E3A8A] transition-all duration-300 transform hover:scale-105 shadow-xl shadow-[#1E3A8A50] hover:shadow-[#1E40AF60] tracking-wide"
-        >
-          Conócenos Más
-        </Link>
+  to="/about"
+  className="relative inline-flex items-center justify-center 
+             px-10 py-3 font-bold rounded-full overflow-hidden
+             text-white hover:text-[#087989]
+             transition-all duration-500 ease-in-out
+             shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
+             hover:scale-105 group"
+  style={{
+    background: "#178FA8", /* Azul verdoso sólido inicial */
+  }}
+>
+  {/* Texto y flecha */}
+  <span className="relative z-10 flex items-center">
+    Conócenos Más
+    <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+      
+    </span>
+  </span>
+
+  {/* Capa de transición */}
+  <span 
+    className="absolute inset-0 z-0 rounded-full 
+               bg-gradient-to-r from-[#F9D976] to-[#A3D977] /* Gradiente amarillo-verde */
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-500"
+  ></span>
+</Link>
+
 
       </motion.div>
     </div>
 
 
- {/* Llamado a la Acción (CTA) */}
-      <div style={{ backgroundColor: 'var(--verde-lima)' }} className="py-16">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-3xl font-bold mb-6">
-            ¿Listo para probar nuestros productos?
-          </h2>
-          <a
-            href="/contact"
-            style={{ backgroundColor: 'var(--amarillo-pastel)', color: 'var(--turquesa-oscuro)' }}
-            className="px-8 py-3 rounded-lg hover:bg-turquesa-claro transition duration-300"
-          >
-            Contáctanos
-          </a>
-        </div>
-      </div>
+{/* Llamado a la Acción (CTA) */}
+<div className="bg-[#A3D977] py-16"> {/* Fondo verde lima */}
+  <div className="max-w-4xl mx-auto text-center px-4">
+    <h2 className="text-[#087989] text-3xl font-bold mb-8">
+      ¿Listo para probar nuestros productos?
+    </h2>
+    
+    <Link
+      to="/contact"
+      className="relative inline-flex items-center justify-center 
+                 px-10 py-4 font-bold rounded-full overflow-hidden
+                 text-[#087989] hover:text-white
+                 transition-all duration-500 ease-in-out
+                 shadow-lg hover:shadow-xl shadow-[#F9D97650] hover:shadow-[#08798960]
+                 hover:scale-105 group"
+      style={{
+        background: "#F9D976", /* Amarillo pastel sólido inicial */
+      }}
+    >
+      {/* Texto y flecha */}
+      <span className="relative z-10 flex items-center">
+        Contáctanos
+        <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+          
+        </span>
+      </span>
+
+      {/* Capa de transición */}
+      <span 
+        className="absolute inset-0 z-0 rounded-full 
+                   bg-gradient-to-r from-[#A3D977] to-[#178FA8] 
+                   opacity-0 group-hover:opacity-100
+                   transition-opacity duration-500"
+      ></span>
+    </Link>
+  </div>
+</div>
+
 
     {/*footer*/ }
     <Footer />
