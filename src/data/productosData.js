@@ -586,87 +586,1201 @@ export const productos = [
     // PAPEL Y DESPACHADORES
     {
         id: 80,
-        nombre: '',
-        categoria: 'Material COVID-19',
-        destacado: false,
+        nombre: 'Papel Higiénico JR Dalia',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 81,
-        nombre: '',
-        categoria: 'Material COVID-19',
-        destacado: false,
+        nombre: 'Papel Higiénico Jumbo Dalia',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 82,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        nombre: 'Papel Higiénico Kleenex',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
-        destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
-    },
-
-
-    {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
-        destacado: false,
+        id: 83,
+        nombre: 'Toalla Azul Scott',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 84,
+        nombre: 'Toalla en Rollo Blanca',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 85,
+        nombre: 'Toalla en Rollo Café',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 86,
+        nombre: 'Toalla Interdoblada',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 87,
+        nombre: 'Toalla Interdoblada (Paquete)',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 88,
+        nombre: 'Vaso Cónico #140',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
-        nombre: '',
-        categoria: 'Material COVID-19',
+        id: 89,
+        nombre: 'Despachador de Jabón Oval',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 90,
+        nombre: 'Despachador de Papel JR',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 91,
+        nombre: 'Despachador de Papel Jumbo',
+        categoria: 'Papel y Despachadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 92,
+        nombre: 'Despachador de Toalla en Rollo',
+        categoria: 'Papel y Despachadores',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 73,
+        id: 93,
+        nombre: 'Despachador de Toalla Interdoblada',
+        categoria: 'Papel y Despachadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 94,
+        nombre: 'Papel Higiénico 160m Elite',
+        categoria: 'Papel y Despachadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 95,
+        nombre: 'Toalla en Rollo ELite',
+        categoria: 'Papel y Despachadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 96,
+        nombre: 'Toalla en Rollo Café ELite',
+        categoria: 'Papel y Despachadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 97,
+        nombre: 'Papel Higiénico 180m Elite',
+        categoria: 'Papel y Despachadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // BOLSAS PLASTICAS
+    {
+        id: 98,
+        nombre: 'Bolsa Can Liners Negra/Natural 24x24',
+        categoria: 'Bolsas Plásticas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 99,
+        nombre: 'Bolsa Can Liners Negra/Natural 48x48',
+        categoria: 'Bolsas Plásticas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 100,
+        nombre: 'Bolsa CAmiseta Ecológica Grande',
+        categoria: 'Bolsas Plásticas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 101,
+        nombre: 'Bolsa de Camiseta Ecológica Jumbo',
+        categoria: 'Bolsas Plásticas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 102,
+        nombre: 'Bolsa Negra 50x40',
+        categoria: 'Bolsas Plásticas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 103,
+        nombre: 'Bolsa Negra 70x90',
+        categoria: 'Bolsas Plásticas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 104,
+        nombre: 'Bolsa Negra 90x120',
+        categoria: 'Bolsas Plásticas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //TRAPEADORES
+    {
+        id: 105,
+        nombre: 'Trapeador de Hilaza #20',
+        categoria: 'Trapeadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 106,
+        nombre: 'Trapeador de Hilaza #30',
+        categoria: 'Trapeadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 107,
+        nombre: 'Trapeador de Magitel',
+        categoria: 'Trapeadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 108,
+        nombre: 'Trapeador de Pabilo #30',
+        categoria: 'Trapeadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 109,
+        nombre: 'Trapeador de Pabilo #40',
+        categoria: 'Trapeadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 110,
+        nombre: 'Trapeador Industrial 1 kg',
+        categoria: 'Trapeadores',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 111,
+        nombre: 'Trapeador de Microfibra (CH, M, G)',
+        categoria: 'Trapeadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 112,
+        nombre: 'Trapeador de Microfibra Española',
+        categoria: 'Trapeadores',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //FIBRAS
+    {
+        id: 113,
+        nombre: 'Fibra de Metal (Delgada)',
+        categoria: 'Fibras',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 114,
+        nombre: 'Fibra de Metal (Gruesa)',
+        categoria: 'Fibras',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 115,
+        nombre: 'Firba Negra Delgada p/Acero Inoxidable',
+        categoria: 'Fibras',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 116,
+        nombre: 'Fibra Negra Delgada p/Parrillas',
+        categoria: 'Fibras',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 117,
+        nombre: 'Fibra P96 Scotch 3M',
+        categoria: 'Fibras',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 118,
+        nombre: 'Fibra Scotch Brite Verde con Amarrillo',
+        categoria: 'Fibras',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 119,
+        nombre: 'Fibra Verde con Amarillo (Par)',
+        categoria: 'Fibras',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 120,
+        nombre: 'Franela Gris',
+        categoria: 'Fibras',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //
+    {
+        id: 121,
+        nombre: 'Estructura para Mop 60 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 122,
+        nombre: 'Estructura para Mop 90 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 123,
+        nombre: 'Estructura para Mop 120 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 124,
+        nombre: 'Estructura para Mop 150 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 125,
+        nombre: 'Estructura (Avión) para Mop 60 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 126,
+        nombre: 'Estructura (Avión) para Mop 90 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 127,
+        nombre: 'Estructura (Avión) para Mop 120 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 127,
+        nombre: 'Estructura (Avión) para Mop 150 cm',
+        categoria: 'Estructuras y Fundas para Mop',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // RECOGEDORES, CUBETAS Y MAS
+    {
+        id: 128,
+        nombre: 'Recogedor Económico',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 129,
+        nombre: 'Recogedor de Media Luna de Plástico',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 130,
+        nombre: 'Pinzas',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 131,
+        nombre: 'Plumero',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 132,
+        nombre: 'Cubeta #12',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 133,
+        nombre: 'Cubeta Exprimidora 20L',
+        categoria: 'Recogedores, Cubetas y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //ESCOBAS
+    {
+        id: 134,
+        nombre: 'Escoba Arcoiris',
+        categoria: 'Escobas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 135,
+        nombre: 'Escoba de Cepillo',
+        categoria: 'Escobas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 136,
+        nombre: 'Escoba Abanico',
+        categoria: 'Escobas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 137,
+        nombre: 'Escoba Industrial',
+        categoria: 'Escobas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 138,
+        nombre: 'Escoba Premium Ultrasuave',
+        categoria: 'Escobas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 139,
+        nombre: 'Escoba tipo Cepillo para Carro',
+        categoria: 'Escobas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 140,
+        nombre: 'Escoba Peñolera',
+        categoria: 'Escobas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 141,
+        nombre: 'Escoba Super',
+        categoria: 'Escobas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // CEPILLOS
+    {
+        id: 142,
+        nombre: 'Cepillo Curvo',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 143,
+        nombre: 'Cepillo de Ixtle 6"',
+        categoria: 'Cepillos',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 144,
+        nombre: 'Cepillo de Ixtle 8"',
+        categoria: 'Cepillos',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 145,
+        nombre: 'Cepillo Escobeta',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 146,
+        nombre: 'Cepillo Lava Platos Alemán',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 147,
+        nombre: 'Cepillo Manual tipo Plancha',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 148,
+        nombre: 'Cepillo Manualito',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 149,
+        nombre: 'Cepillo Manualito Grande',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 150,
+        nombre: 'Cepillo para Baño',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 151,
+        nombre: 'Cepillo para Baño con Base',
+        categoria: 'Cepillos',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 152,
+        nombre: 'Cepillo tipo Plancha Alemana',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 153,
+        nombre: 'Cepillo tipo Plancha Italiana',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 154,
+        nombre: 'Cepillo tipo Plancha Italiana Grande',
+        categoria: 'Cepillos',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //BOTES,CESTOS y MAS
+    {
+        id: 155,
+        nombre: 'Cesto de Ropa',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 156,
+        nombre: 'Bomba para Baños',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 157,
+        nombre: 'Bote de Basura 12L',
+        categoria: 'Botes, Cestos y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 158,
+        nombre: 'Bote de Basura 6 L',
+        categoria: 'Botes, Cestos y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 159,
+        nombre: 'Bote de Basura de Colores 10 L',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 160,
+        nombre: 'Bastón con punta Reforzada',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 161,
+        nombre: 'Bastón Acero con Extensión 120-240 cm',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 162,
+        nombre: 'Bastón de Madera',
+        categoria: 'Botes, Cestos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // JARCERIA
+    {
+        id: 163,
+        nombre: 'Pastilla de Cloro',
+        categoria: 'Jarcería',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 164,
+        nombre: 'Pastilla Institucional Azul',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 165,
+        nombre: 'Pastilla para Baño Wiese',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 166,
+        nombre: 'Pastilla para Migitorio Azul 86g Wiese',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 167,
+        nombre: 'Tapete Antisalpicadura para Migitorio Wiese',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 168,
+        nombre: 'Matamoscas',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 169,
+        nombre: 'Lazo 7 mts',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 170,
+        nombre: 'Jalador 50 cm',
+        categoria: 'Jarcería',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 171,
+        nombre: 'Jalador 40 cm',
+        categoria: 'Jarcería',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 172,
+        nombre: 'Jalador con Esponja 20 cm',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 173,
+        nombre: 'Jerga',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 174,
+        nombre: 'Magitel',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 175,
+        nombre: 'Botella de Plástico 1 L',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 176,
+        nombre: 'Botella de Plástico 1/2 L',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 177,
+        nombre: 'Cuadritela',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 178,
+        nombre: 'Guantes de Limpieza',
+        categoria: 'Jarcería',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 179,
+        nombre: 'Jabón Lavalozas',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 180,
+        nombre: 'Abrillantaador Lavaloza',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 181,
+        nombre: 'Desincrustrante de Metales',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 182,
+        nombre: 'Desengrasante para Parrilla Caliente',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 183,
+        nombre: 'Sanitizante de Superficies y Utensiios de Cocina',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 184,
+        nombre: 'Desinfectante para Frutas y Verduras',
+        categoria: 'Jarcería',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // ESTETICA AUTOMOTRIZ
+    {
+        id: 185,
+        nombre: 'Restaurador de Brillo Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 186,
+        nombre: 'Limpiador de Rines Plus Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 187,
+        nombre: 'Sellado en Spray Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 188,
+        nombre: 'Cera Rápida de Alto Brillo Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 189,
+        nombre: 'Shampoo Alto Brillo Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 190,
+        nombre: 'Limpia Tapices Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 191,
+        nombre: 'Limpiador de AC Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 192,
+        nombre: 'Profiline NP 03-06 Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 193,
+        nombre: 'Pulimento Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 194,
+        nombre: 'Renovador de Goma Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 195,
+        nombre: 'Quita Alquitrán Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 196,
+        nombre: 'Claydisc 150 mm Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 197,
+        nombre: 'Esponja Pulidora Gris 160 Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 198,
+        nombre: 'Lija B-99 Micro Fino Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 199,
+        nombre: 'Aceite Lubricante Hidráulico',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 200,
+        nombre: 'Protector de Vinil Chemical Guys',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 201,
         nombre: '',
-        categoria: 'Material COVID-19',
+        categoria: 'Cera Líquida Chemical Guys',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 202,
+        nombre: 'Compuesto Pulidor 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 203,
+        nombre: 'Pulimento para Faros Profiline Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 204,
+        nombre: 'Plastilina Limpiadora 3M',
+        categoria: 'Estética Automotriz',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 205,
+        nombre: 'Abrasivo para Cromo y Aluminio Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 206,
+        nombre: 'Quita Goma de Alfombras 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 207,
+        nombre: 'Cera en Pasta 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 208,
+        nombre: 'Limpia Frenos Química TF',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 209,
+        nombre: 'Masilla de Acabado Premium 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 210,
+        nombre: 'Arrancador para Motores Química TF',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 211,
+        nombre: 'Protector de Terminal de Baterías Gunk',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 212,
+        nombre: 'Limpiador de Terminal de Baterías Gunk',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 213,
+        nombre: 'Silenciador para Frenos de Disco TF',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 214,
+        nombre: 'Aflojatodo Auto Zone',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 215,
+        nombre: 'Super Aflojatodo TF',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 216,
+        nombre: 'Clean and Shine 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 217,
+        nombre: 'Limpiador de Piel y Vinil 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 218,
+        nombre: 'Cera Limpiadora',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: 'Cera Suave para Auto 3M',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 221,
+        nombre: 'Removedor de Rayones Turtle Wax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 222,
+        nombre: 'Limpiador de Vidrio Repelente a la Lluvia',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 223,
+        nombre: 'Limpiador de Vidrios 3M',
+        categoria: 'Estética Automotriz',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 224,
+        nombre: 'Profiline Speedprotect Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 225,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 226,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 227,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 228,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 229,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 230,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 220,
+        nombre: '',
+        categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
