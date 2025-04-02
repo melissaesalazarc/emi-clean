@@ -1611,176 +1611,675 @@ export const productos = [
     },
     {
         id: 225,
-        nombre: '',
+        nombre: 'Limpiador de Plásticos Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 226,
-        nombre: '',
+        nombre: 'HW 02-04 Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 227,
-        nombre: '',
+        nombre: 'Removedor de Manchas de Agua Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 228,
-        nombre: '',
+        nombre: 'Visión Clara 1:100 Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 229,
-        nombre: '',
+        nombre: 'Spray Anti Empañante Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 230,
-        nombre: '',
+        nombre: 'Limpia Tapices Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 231,
+        nombre: 'Pulimento Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 232,
+        nombre: 'Esponja Multiusos 2 en 1 Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 233,
+        nombre: 'Cepillo de Rin Ultra Suave Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 234,
+        nombre: 'Flexi Espatula Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 235,
+        nombre: 'Esponja Aplicadora Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 236,
+        nombre: 'Shampoo Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 237,
+        nombre: 'Shampoo con Cera Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 238,
+        nombre: 'Polish and Wax Color Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 239,
+        nombre: 'Limpia Insectos Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 240,
+        nombre: 'Lack Prepare Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 241,
+        nombre: 'Renovador de Gomas Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 242,
+        nombre: 'Sellador en Spray Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 243,
+        nombre: 'Restaurador de Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 244,
+        nombre: 'Supreme Discs Foam Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 245,
+        nombre: 'Recubrimiento Cerámico Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 246,
+        nombre: 'Easy Shine Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 247,
+        nombre: 'Protector de Interiores Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 248,
+        nombre: 'Glass Polish Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 249,
+        nombre: 'Renovador Plástico Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
-        id: 220,
-        nombre: '',
+        id: 250,
+        nombre: 'Borrador de Suciedad Sonax',
         categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 251,
+        nombre: 'Limpia Parabrisas',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 252,
+        nombre: 'Hybrid Wool Pad 143 DA Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 253,
+        nombre: 'Cut and Finish Profiline Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 254,
+        nombre: 'Almohadilla de Espuma Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 255,
+        nombre: 'Plastilina Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 256,
+        nombre: 'Esponja para Aplicaciones Sonax',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 257,
+        nombre: 'Masking Automotriz 2" Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 258,
+        nombre: 'Masking Automotriz 3/4" Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 259,
+        nombre: 'Masking Automotriz 1/2" Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 260,
+        nombre: 'Masking Automotriz 1" Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 261,
+        nombre: 'Jalador para Vidrio',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 262,
+        nombre: 'Rellenador Ligero Fandeli',
+        categoria: 'Estética Automotriz',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // DIAGNOSTICO Y PRUEBAS
+    {
+        id: 263,
+        nombre: 'Panel de Prueba de Antidoping',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 264,
+        nombre: 'Prueba de Antidoping de Tira',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 265,
+        nombre: 'Frasco para Pruebas',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 266,
+        nombre: 'Prueba de Saliva',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 267,
+        nombre: 'Alcoholímetro Iblow',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 268,
+        nombre: 'Alcoholímetro',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 269,
+        nombre: 'Alcoholímetro de Pared',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 270,
+        nombre: 'Glucómetro',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 271,
+        nombre: 'Baumanómetro',
+        categoria: 'Diagnóstico y Pruebas',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // MEDICAMENTOS Y MAS
+    {
+        id: 272,
+        nombre: 'Aspitak P 30 Compuesto 100 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 273,
+        nombre: 'Doloxen 10 Tabletas 100 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 274,
+        nombre: 'Farex Ibuprofeno 10 Tabletas 600 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 275,
+        nombre: 'Ketorolaco INY 30 ML',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 276,
+        nombre: 'Mavidol SL 4 Tabletas 30 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 277,
+        nombre: 'Metoclopramida 6 Ampolletas 10mg/2ml',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 278,
+        nombre: 'Dirpasid 20 Tabletas 10 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 279,
+        nombre: 'Portem 10 Tbletas 500 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 280,
+        nombre: 'KY6 10 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 281,
+        nombre: 'Masferol 10 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 282,
+        nombre: ' Rosel 24 Tabletas 300mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 283,
+        nombre: ' Cinarizina Ultra 60 Tabletas 75 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 284,
+        nombre: 'Venda Elástica #10',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 285,
+        nombre: 'Gasas 10x10',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 286,
+        nombre: 'Gasas 7.5x7.5',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 287,
+        nombre: ' Cinta Microporosa 1"',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 288,
+        nombre: 'Bandas Adhesivas (Curitas)',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 289,
+        nombre: 'Mertiolate 30 ml',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 290,
+        nombre: 'Algodón 500 g',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 291,
+        nombre: 'Cartilla de Snellen para Examen Visual',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 292,
+        nombre: 'Botiquín de Primeros Auxilios',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 293,
+        nombre: ' Termómetro Infrarrojo',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 294,
+        nombre: 'Oxímetro de Pulso Digital',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 295,
+        nombre: 'Tiras Reactivas para Glucómetro Active',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 296,
+        nombre: 'Lancetas Soft Clix',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 297,
+        nombre: 'Alcohol Etílico 70%',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 298,
+        nombre: 'Extintor de 6.8 kg Dióxido de Carbono',
+        categoria: 'Medicamentos y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 299,
+        nombre: ' Extintor de 6 kg Clase K',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 300,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 301,
+        nombre: 'Diclofenaco 100 mg 20 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 302,
+        nombre: 'Clorfenamina 4 mg 20 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 303,
+        nombre: ' Loperamida 2 mg 12 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 304,
+        nombre: ' Difenidol 25 mg 30 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 305,
+        nombre: 'Sal de Uvas Picot 12 Sobres',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 306,
+        nombre: 'Benzonatato 100 mg Perlas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 307,
+        nombre: 'Dextrometorfano 15 mg',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 308,
+        nombre: 'Hioscina 10 mg 10 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 309,
+        nombre: 'Ciprofloxacino 250 mg 12 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 310,
+        nombre: 'Omeprazol',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 311,
+        nombre: 'Aspirinas 500 mg 40 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 312,
+        nombre: 'Dramamine 50 mg 24 Tabletas',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 313,
+        nombre: 'Pepto Bismol',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 314,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 315,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 316,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 317,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 318,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 319,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 320,
+        nombre: '',
+        categoria: 'Medicamentos y Más',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
