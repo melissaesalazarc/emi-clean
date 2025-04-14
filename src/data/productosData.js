@@ -81,84 +81,84 @@ export const productos = [
         nombre: 'Atomizador de Uso Rudo Canyon',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/A_industrial.png'
     },
     {
         id: 9,
         nombre: 'Atomizador Industrial',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/A_Rudo.png'
     },
     {
         id: 10,
         nombre: 'Microfibra',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/microfibra.png'
     },
     {
         id: 11,
         nombre: 'Cepillo Bi-Level tipo Raqueta de PVC',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/c_pvc.png'
     },
     {
         id: 12,
         nombre: 'Cepillo Brush Bi-Level Redondo',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/c_redondo.png'
     },
     {
         id: 13,
         nombre: ' Cepillo Brush Sencillo de PVC',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/c_sencillo_pvc.png'
     },
     {
         id: 14,
         nombre: ' Abrillantador en Gel',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/A_industrial.png'
     },
     {
         id: 15,
         nombre: 'Cepillo de Ixtle',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/c_ixtle.png'
     },
     {
         id: 16,
         nombre: 'Trapo Industrial',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/trapo_industrial.png'
     },
     {
         id: 17,
         nombre: 'Esponja tipo Cacahuate 4"',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/e_cacahuate_4.png'
     },
     {
         id: 18,
         nombre: 'Esponja tipo Cacahuate 8"',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/e_cacahuate_8.png'
     },
     {
         id: 19,
         nombre: 'Franela gris',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/lavado_automotriz/franela_gris.png'
     },
     // AEROSOLES Y AROMAS
     {
@@ -920,13 +920,6 @@ export const productos = [
     {
         id: 127,
         nombre: 'Estructura (Avión) para Mop 120 cm',
-        categoria: 'Estructuras y Fundas para Mop',
-        destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
-    },
-    {
-        id: 127,
-        nombre: 'Estructura (Avión) para Mop 150 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
@@ -2234,55 +2227,368 @@ export const productos = [
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
+    // SEGURIDAD VIAL
     {
         id: 314,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Boya Amarilla',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 315,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Vialetas Plásticas',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 316,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Tope Grande',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 317,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Tope Chico',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 318,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Poste Alineador',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 319,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Barrera solapada',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
     {
         id: 320,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
+        nombre: 'Trafitambo',
+        categoria: 'Seguridad Vial',
         destacado: false,
         imagen: '/images/productos/aromatizante-lavanda.jpg'
     },
+    {
+        id: 321,
+        nombre: 'Cono',
+        categoria: 'Seguridad Vial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 322,
+        nombre: 'Señal de Alto',
+        categoria: 'Seguridad Vial',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // EQUIPO DE SEGURIDAD
+    {
+        id: 323,
+        nombre: 'Lentes de Seguridad',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 324,
+        nombre: 'Calzado de Seguridad',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 325,
+        nombre: 'Chaleco Reflejante',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 326,
+        nombre: 'Faja',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 327,
+        nombre: 'Guante Anticorte',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 328,
+        nombre: 'Guante de Nylon Nitrilo',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 329,
+        nombre: 'Tapón de Oído desechable',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 330,
+        nombre: 'Orejeras',
+        categoria: 'Equipo de Seguridad',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    //FERRETERIA Y MAS
+    {
+        id: 331,
+        nombre: 'Broca de 3/6',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 332,
+        nombre: 'Broca de 3/8',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 333,
+        nombre: 'Broca de 5/16',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 334,
+        nombre: 'Calibrador de Aire de 150 lbs',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 335,
+        nombre: 'Clavija para Extensión Plástica',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 336,
+        nombre: 'Conector Glandular 3/4',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 337,
+        nombre: 'Contacto Duplex Volteck',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 338,
+        nombre: 'Disco de Corte para Metal 4 1/2',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 339,
+        nombre: 'Gas Butano',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 340,
+        nombre: 'Gas Refrigerante',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 341,
+        nombre: 'Machuelo 7/16',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 342,
+        nombre: 'Machuelo 1/2 Estándar',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 343,
+        nombre: 'Parche',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 344,
+        nombre: 'Pija 1/4 x 1" 1/2',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 345,
+        nombre: 'Piola Estándard',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 346,
+        nombre: 'Placa de Aluminio Gris',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 347,
+        nombre: 'Remache de 3/16" x 3/4"',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 348,
+        nombre: 'Multicontactos',
+        categoria: 'Ferretería y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 349,
+        nombre: 'Cable de uso Rudo 1 m',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 350,
+        nombre: 'Extensión Eléctrica',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 351,
+        nombre: 'Martillo',
+        categoria: 'Ferretería y Más',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 352,
+        nombre: 'Desarmador',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 353,
+        nombre: 'Destornillador',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 354,
+        nombre: 'Sierra Eléctrica',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 355,
+        nombre: 'Sierra',
+        categoria: 'Ferretería y Más',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    // SEGURIDAD INDUSTRIAL
+    {
+        id: 356,
+        nombre: 'Cinta de Precaución',
+        categoria: 'Seguridad Industrial',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 357,
+        nombre: 'Cinta de Prohibido el Paso',
+        categoria: 'Seguridad Industrial',
+        destacado: true,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 358,
+        nombre: 'Malla Delimitadora',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 359,
+        nombre: 'Casco',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 360,
+        nombre: 'Careta de Soldador',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 361,
+        nombre: 'Mandil de Carnaza',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 362,
+        nombre: 'Manga de Kevlar',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 363,
+        nombre: 'Overol Desechable',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+    {
+        id: 364,
+        nombre: 'Árnes Sencillo',
+        categoria: 'Seguridad Industrial',
+        destacado: false,
+        imagen: '/images/productos/aromatizante-lavanda.jpg'
+    },
+
 
 ];
 
