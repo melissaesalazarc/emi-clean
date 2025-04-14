@@ -166,55 +166,56 @@ export const productos = [
         nombre: 'Abrillantador de Muebles Pledge',
         categoria: 'Aerosoles y Aromas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/pledge.png'
     },
     {
         id: 21,
         nombre: 'Abrillantador de Muebles Wiese',
         categoria: 'Aerosoles y Aromas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
-    }, {
+        imagen: '/images/aerosoles_aromas/abrillantador_wiese.png'
+    },
+    {
         id: 22,
         nombre: 'Aromatizante BAEMI',
         categoria: 'Aerosoles y Aromas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/pledge.png'
     },
     {
         id: 23,
         nombre: 'Aromatizante Glade 400 ml',
         categoria: 'Aerosoles y Aromas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/armoatizante_glade.png'
     },
     {
         id: 24,
         nombre: 'Aromatizante Wiese 400 ml',
         categoria: 'Aerosoles y Aromas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/armoatizante_wiese.png'
     },
     {
         id: 25,
         nombre: 'Raid Casa y Jardin',
         categoria: 'Aerosoles y Aromas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/raid.png'
     },
     {
         id: 26,
         nombre: 'Repuesto Aromatizante Wiese',
         categoria: 'Aerosoles y Aromas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/repuesto_wiese.png'
     },
     {
         id: 27,
         nombre: ' Repuesto Aromatizante Glade',
         categoria: 'Aerosoles y Aromas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/aerosoles_aromas/repuesto_glade.png'
     },
     // Líquidos para el hogar
     {
