@@ -590,126 +590,126 @@ export const productos = [
         nombre: 'Papel Higiénico JR Dalia',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/paperlJR.png'
     },
     {
         id: 81,
         nombre: 'Papel Higiénico Jumbo Dalia',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/papelJumbo.png'
     },
     {
         id: 82,
         nombre: 'Papel Higiénico Kleenex',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/papel_kleenex.png'
     },
     {
         id: 83,
         nombre: 'Toalla Azul Scott',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/toalla_scott.png'
     },
     {
         id: 84,
         nombre: 'Toalla en Rollo Blanca',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/toalla_rolloB.png'
     },
     {
         id: 85,
         nombre: 'Toalla en Rollo Café',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/toalla_rolloC.png'
     },
     {
         id: 86,
         nombre: 'Toalla Interdoblada',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/toalla_interdoblada.png'
     },
     {
         id: 87,
         nombre: 'Toalla Interdoblada (Paquete)',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/ti_paquete.png'
     },
     {
         id: 88,
         nombre: 'Vaso Cónico #140',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/vaso_conico.png'
     },
     {
         id: 89,
         nombre: 'Despachador de Jabón Oval',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/DJ_oval.png'
     },
     {
         id: 90,
         nombre: 'Despachador de Papel JR',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/DP_jr.png'
     },
     {
         id: 91,
         nombre: 'Despachador de Papel Jumbo',
         categoria: 'Papel y Despachadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/DP_jumbo.png'
     },
     {
         id: 92,
         nombre: 'Despachador de Toalla en Rollo',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/DT_rollo.png'
     },
     {
         id: 93,
         nombre: 'Despachador de Toalla Interdoblada',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/DT_interdoblada.png'
     },
     {
         id: 94,
         nombre: 'Papel Higiénico 160m Elite',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/PH_elite.png'
     },
     {
         id: 95,
         nombre: 'Toalla en Rollo ELite',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/TR_elite.png'
     },
     {
         id: 96,
         nombre: 'Toalla en Rollo Café ELite',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/TR_eliteC.png'
     },
     {
         id: 97,
         nombre: 'Papel Higiénico 180m Elite',
         categoria: 'Papel y Despachadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/papel/PH_elite180.png'
     },
     // BOLSAS PLASTICAS
     {
