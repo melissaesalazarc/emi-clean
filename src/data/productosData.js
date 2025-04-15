@@ -717,49 +717,49 @@ export const productos = [
         nombre: 'Bolsa Can Liners Negra/Natural 24x24',
         categoria: 'Bolsas Plásticas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bolsa_24x24.png'
     },
     {
         id: 99,
         nombre: 'Bolsa Can Liners Negra/Natural 48x48',
         categoria: 'Bolsas Plásticas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bolsa_48x48.png'
     },
     {
         id: 100,
         nombre: 'Bolsa CAmiseta Ecológica Grande',
         categoria: 'Bolsas Plásticas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bc_granade.png'
     },
     {
         id: 101,
         nombre: 'Bolsa de Camiseta Ecológica Jumbo',
         categoria: 'Bolsas Plásticas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bc_jumbo.png'
     },
     {
         id: 102,
         nombre: 'Bolsa Negra 50x40',
         categoria: 'Bolsas Plásticas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bolsa70x90.png'
     },
     {
         id: 103,
         nombre: 'Bolsa Negra 70x90',
         categoria: 'Bolsas Plásticas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bolsa70x90.png'
     },
     {
         id: 104,
         nombre: 'Bolsa Negra 90x120',
         categoria: 'Bolsas Plásticas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/bolsas/bolsa_90x120.png'
     },
     //TRAPEADORES
     {
