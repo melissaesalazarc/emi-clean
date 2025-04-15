@@ -279,7 +279,7 @@ export const productos = [
         nombre: 'Detergente Tipo Foca',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/armoatizante_glade.png'
     },
     {
         id: 37,
@@ -328,14 +328,14 @@ export const productos = [
         nombre: 'Detergente en Polvo Arcoíris',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/liquidos_hogar/arcoiris.png'
     },
     {
         id: 44,
         nombre: 'Detergente en Polvo Roma',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/liquidos_hogar/roma.png'
     },
     // PRODUCTOS DE LINEA
     {
@@ -343,182 +343,182 @@ export const productos = [
         nombre: 'Desinfectante Multiusos Lysol',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/desinfectante_lysol.png'
     },
     {
         id: 46,
         nombre: 'Fabuloso Aromas Variados',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/fabuloso.png'
     },
     {
         id: 47,
         nombre: 'Pinol Aromas Variados',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/pinol.png'
     },
     {
         id: 48,
         nombre: 'Cristales con Fragancia Vern Nel',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/cristales_vernel.png'
     },
     {
         id: 49,
         nombre: 'Desinfectante en Aerosol Sanytol',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/desinfectante_sanytol.png'
     },
     {
         id: 50,
         nombre: 'Febreze Aromas Variados',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/febreze.png'
     },
     {
         id: 51,
         nombre: 'Repuesto de Aromas Variados Air Wick',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/repuesto_airwick.png'
     },
     {
         id: 52,
         nombre: 'Limpiador harpic Power Ultra',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/harpic.png'
     },
     {
         id: 53,
         nombre: 'Detergente Líquido Foca',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/foca.png'
     },
     {
         id: 54,
         nombre: 'Jabón Zote Rosa',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/zote_rosa.png'
     },
     {
         id: 55,
         nombre: 'Jabon Zote Azul',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/zote_azul.png'
     },
     {
         id: 56,
         nombre: 'Jabón de Tocador Lirio Dermatológico',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/liro.png'
     },
     {
         id: 57,
-        nombre: 'Jabón de Tocador ROsa Venus',
+        nombre: 'Jabón de Tocador Rosa Venus',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/rosavenus.png'
     },
     {
         id: 58,
         nombre: 'Jabón de Tocador Zest Aroma Variado',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/zest.png'
     },
     {
         id: 59,
         nombre: 'Insecticida para Moscas marca Trón',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/tron.png'
     },
     {
         id: 60,
         nombre: 'Desinfectante Multiusos Biovéne',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/biovene.png'
     },
     {
         id: 61,
         nombre: 'Repelente Wiese Citonela y Eucalipto',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/repelente_wiese.png'
     },
     {
         id: 62,
         nombre: 'Cloralex',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/cloralex.png'
     },
     {
         id: 63,
         nombre: 'Shampoo Sedal Aromas Variados',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/sedal.png'
     },
     {
         id: 64,
         nombre: 'Shampoo Savilé Aromas Variados',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/savile.png'
     },
     {
         id: 65,
         nombre: 'Jabón Líquido para Manos Kleenex',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/jabon_kleenex.png'
     },
     {
         id: 66,
         nombre: 'Jabón Líquido para Manos Blumen',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/jabon_blumen.png'
     },
     {
         id: 67,
         nombre: 'Jabón Líquido para Trastes Axión',
         categoria: 'Productos de Línea',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/axion.png'
     },
     {
         id: 68,
         nombre: 'Windex Mr.Musculo',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/mrmusculo.png'
     },
     {
         id: 69,
         nombre: 'Ajax Amonia',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/ajax_amonia.png'
     },
     {
         id: 70,
         nombre: 'Soporte para Aromatizante Glade',
         categoria: 'Productos de Línea',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/productos_linea/soporte_glade.png'
     },
     // COVID
     {
