@@ -526,63 +526,63 @@ export const productos = [
         nombre: 'Desinfectante Sanitizante Universal',
         categoria: 'Material COVID-19',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/.png'
     },
     {
         id: 72,
         nombre: 'Mascarilla KN95',
         categoria: 'Material COVID-19',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/kn95.png'
     },
     {
         id: 73,
         nombre: 'Charola Sanitizante',
         categoria: 'Material COVID-19',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/charola_sanitizante.png'
     },
     {
         id: 74,
         nombre: 'Toallitas Desinfectantes',
         categoria: 'Material COVID-19',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/toallitas_desinfectantes.png'
     },
     {
         id: 75,
         nombre: 'Gel Antibacterial',
         categoria: 'Material COVID-19',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/.png'
     },
     {
         id: 76,
         nombre: 'Desinfectante Universal Lysol',
         categoria: 'Material COVID-19',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/lysol_spray.png'
     },
     {
         id: 77,
         nombre: 'Caja de Cubrebocas',
         categoria: 'Material COVID-19',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/caja_cubrebocas.png'
     },
     {
         id: 78,
         nombre: 'Guantes de Latex Bajo Polvo',
         categoria: 'Material COVID-19',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/guantes_latex.png'
     },
     {
         id: 79,
         nombre: 'Guantes de Nitrilo Desechable',
         categoria: 'Material COVID-19',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/covid/guantes_nitrilo.png'
     },
     // PAPEL Y DESPACHADORES
     {
