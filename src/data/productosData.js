@@ -109,7 +109,7 @@ export const productos = [
         nombre: 'Cepillo Brush Bi-Level Redondo',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/lavado_automotriz/c_redondo.png'
+        imagen: '/images/lavado_automotriz/c-redondo.png'
     },
     {
         id: 13,

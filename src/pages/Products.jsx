@@ -118,7 +118,7 @@ const Productos = () => {
             <h2 className="text-3xl font-bold mb-6 text-white">¿No encuentras lo que buscas?</h2>
             <p className="text-xl text-white mb-8">Contáctanos y te ayudaremos a encontrar el producto perfecto</p>
             <Link
-              to="/contacto"
+              to="/contact"
               className="inline-block px-8 py-3 bg-white text-[#087989] rounded-full font-bold hover:bg-[#087989] hover:text-white transition duration-300 shadow-lg"
             >
               Contactar a un asesor
