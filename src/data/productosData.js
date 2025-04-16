@@ -1939,294 +1939,287 @@ export const productos = [
         nombre: 'Aspitak P 30 Compuesto 100 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/aspitak.png'
     },
     {
         id: 273,
         nombre: 'Doloxen 10 Tabletas 100 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/doloxen.png'
     },
     {
         id: 274,
         nombre: 'Farex Ibuprofeno 10 Tabletas 600 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/farex.png'
     },
     {
         id: 275,
         nombre: 'Ketorolaco INY 30 ML',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/ketorolaco.png'
     },
     {
         id: 276,
         nombre: 'Mavidol SL 4 Tabletas 30 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/mavidol.png'
     },
     {
         id: 277,
         nombre: 'Metoclopramida 6 Ampolletas 10mg/2ml',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/metoclopramida.png'
     },
     {
         id: 278,
         nombre: 'Dirpasid 20 Tabletas 10 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/dirpasid.png'
     },
     {
         id: 279,
         nombre: 'Portem 10 Tbletas 500 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/portem.png'
     },
     {
         id: 280,
         nombre: 'KY6 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/ky6.png'
     },
     {
         id: 281,
         nombre: 'Masferol 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/masferol.png'
     },
     {
         id: 282,
         nombre: ' Rosel 24 Tabletas 300mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/rosel.png'
     },
     {
         id: 283,
         nombre: ' Cinarizina Ultra 60 Tabletas 75 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/cinarizina.png'
     },
     {
         id: 284,
         nombre: 'Venda Elástica #10',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/venda.png'
     },
     {
         id: 285,
         nombre: 'Gasas 10x10',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/gasas10.png'
     },
     {
         id: 286,
         nombre: 'Gasas 7.5x7.5',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/gasas10.png'
     },
     {
         id: 287,
-        nombre: ' Cinta Microporosa 1"',
+        nombre: 'Cinta Microporosa 1"',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/cinta.png'
     },
     {
         id: 288,
         nombre: 'Bandas Adhesivas (Curitas)',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/curitas.png'
     },
     {
         id: 289,
         nombre: 'Mertiolate 30 ml',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/mertiolate.png'
     },
     {
         id: 290,
         nombre: 'Algodón 500 g',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/algodon.png'
     },
     {
         id: 291,
         nombre: 'Cartilla de Snellen para Examen Visual',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/snellen.png'
     },
     {
         id: 292,
         nombre: 'Botiquín de Primeros Auxilios',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/botiquin.png'
     },
     {
         id: 293,
         nombre: ' Termómetro Infrarrojo',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/termometor.png'
     },
     {
         id: 294,
         nombre: 'Oxímetro de Pulso Digital',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/oxi.png'
     },
     {
         id: 295,
         nombre: 'Tiras Reactivas para Glucómetro Active',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/tiras_gluco.png'
     },
     {
         id: 296,
         nombre: 'Lancetas Soft Clix',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/softclix.png'
     },
     {
         id: 297,
         nombre: 'Alcohol Etílico 70%',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/alochetilik.png'
     },
     {
         id: 298,
         nombre: 'Extintor de 6.8 kg Dióxido de Carbono',
         categoria: 'Medicamentos y Más',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/exti68.png'
     },
     {
         id: 299,
         nombre: ' Extintor de 6 kg Clase K',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
-    },
-    {
-        id: 300,
-        nombre: '',
-        categoria: 'Medicamentos y Más',
-        destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/extiK.png'
     },
     {
         id: 301,
         nombre: 'Diclofenaco 100 mg 20 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/diclofenaco.png'
     },
     {
         id: 302,
         nombre: 'Clorfenamina 4 mg 20 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/clorfen.png'
     },
     {
         id: 303,
         nombre: ' Loperamida 2 mg 12 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/loperamida.png'
     },
     {
         id: 304,
         nombre: ' Difenidol 25 mg 30 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/difenidol.png'
     },
     {
         id: 305,
         nombre: 'Sal de Uvas Picot 12 Sobres',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/saldeuvas.png'
     },
     {
         id: 306,
         nombre: 'Benzonatato 100 mg Perlas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/benxonotato.png'
     },
     {
         id: 307,
         nombre: 'Dextrometorfano 15 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/dex.png'
     },
     {
         id: 308,
         nombre: 'Hioscina 10 mg 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/hios.png'
     },
     {
         id: 309,
         nombre: 'Ciprofloxacino 250 mg 12 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/cip.png'
     },
     {
         id: 310,
         nombre: 'Omeprazol',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/omep.png'
     },
     {
         id: 311,
         nombre: 'Aspirinas 500 mg 40 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/aspirinas.png'
     },
     {
         id: 312,
         nombre: 'Dramamine 50 mg 24 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/dramamine.png'
     },
     {
         id: 313,
         nombre: 'Pepto Bismol',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/medicina/pepto.png'
     },
     // SEGURIDAD VIAL
     {
