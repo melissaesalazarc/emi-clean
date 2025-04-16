@@ -21,7 +21,7 @@ export const categorias = [
     { id: 19, nombre: 'Medicamentos y Más' },
     { id: 20, nombre: 'Seguridad Vial' },
     { id: 21, nombre: 'Equipo de Seguridad' },
-    { id: 22, nombre: 'Ferretería y más' },
+    { id: 22, nombre: 'Ferretería y Más' },
     { id: 23, nombre: 'Seguridad Industrial' }
 ];
 
@@ -2291,56 +2291,56 @@ export const productos = [
         nombre: 'Lentes de Seguridad',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/lentes.png'
     },
     {
         id: 324,
         nombre: 'Calzado de Seguridad',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/calzdo.png'
     },
     {
         id: 325,
         nombre: 'Chaleco Reflejante',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/chaleco.png'
     },
     {
         id: 326,
         nombre: 'Faja',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/faja.png'
     },
     {
         id: 327,
         nombre: 'Guante Anticorte',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/guanteA.png'
     },
     {
         id: 328,
         nombre: 'Guante de Nylon Nitrilo',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/guanteNN.png'
     },
     {
         id: 329,
         nombre: 'Tapón de Oído desechable',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/tapon.png'
     },
     {
         id: 330,
         nombre: 'Orejeras',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/eSeguridad/orejeras.png'
     },
     //FERRETERIA Y MAS
     {
@@ -2348,175 +2348,175 @@ export const productos = [
         nombre: 'Broca de 3/6',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/broca36.png'
     },
     {
         id: 332,
         nombre: 'Broca de 3/8',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/broca38.png'
     },
     {
         id: 333,
         nombre: 'Broca de 5/16',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/broca516.png'
     },
     {
         id: 334,
         nombre: 'Calibrador de Aire de 150 lbs',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/calibrador.png'
     },
     {
         id: 335,
         nombre: 'Clavija para Extensión Plástica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/calvija.png'
     },
     {
         id: 336,
         nombre: 'Conector Glandular 3/4',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/conector.png'
     },
     {
         id: 337,
         nombre: 'Contacto Duplex Volteck',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/contatco.png'
     },
     {
         id: 338,
         nombre: 'Disco de Corte para Metal 4 1/2',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/disco.png'
     },
     {
         id: 339,
         nombre: 'Gas Butano',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/gas.png'
     },
     {
         id: 340,
         nombre: 'Gas Refrigerante',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/gasR.png'
     },
     {
         id: 341,
         nombre: 'Machuelo 7/16',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/machuelo716.png'
     },
     {
         id: 342,
         nombre: 'Machuelo 1/2 Estándar',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/machuelo12.png'
     },
     {
         id: 343,
         nombre: 'Parche',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/parche.png'
     },
     {
         id: 344,
         nombre: 'Pija 1/4 x 1" 1/2',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/pija14.png'
     },
     {
         id: 345,
         nombre: 'Piola Estándard',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/piola.png'
     },
     {
         id: 346,
         nombre: 'Placa de Aluminio Gris',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/placa.png'
     },
     {
         id: 347,
         nombre: 'Remache de 3/16" x 3/4"',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/remache316.png'
     },
     {
         id: 348,
         nombre: 'Multicontactos',
         categoria: 'Ferretería y Más',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/multicon.png'
     },
     {
         id: 349,
         nombre: 'Cable de uso Rudo 1 m',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/cableR.png'
     },
     {
         id: 350,
         nombre: 'Extensión Eléctrica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/extensionC.png'
     },
     {
         id: 351,
         nombre: 'Martillo',
         categoria: 'Ferretería y Más',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/martillo.png'
     },
     {
         id: 352,
         nombre: 'Desarmador',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/desarmador.png'
     },
     {
         id: 353,
         nombre: 'Destornillador',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/destornillador.png'
     },
     {
         id: 354,
         nombre: 'Sierra Eléctrica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/sierraE.png'
     },
     {
         id: 355,
         nombre: 'Sierra',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/ferreteria/sierra.png'
     },
     // SEGURIDAD INDUSTRIAL
     {
@@ -2524,63 +2524,63 @@ export const productos = [
         nombre: 'Cinta de Precaución',
         categoria: 'Seguridad Industrial',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/precaucion.png'
     },
     {
         id: 357,
         nombre: 'Cinta de Prohibido el Paso',
         categoria: 'Seguridad Industrial',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/prohibido.png'
     },
     {
         id: 358,
         nombre: 'Malla Delimitadora',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/malla.png'
     },
     {
         id: 359,
         nombre: 'Casco',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/casco.png'
     },
     {
         id: 360,
         nombre: 'Careta de Soldador',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/careta.png'
     },
     {
         id: 361,
         nombre: 'Mandil de Carnaza',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/madil.png'
     },
     {
         id: 362,
         nombre: 'Manga de Kevlar',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/manga.png'
     },
     {
         id: 363,
         nombre: 'Overol Desechable',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/overol.png'
     },
     {
         id: 364,
         nombre: 'Árnes Sencillo',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridadI/arnes.png'
     },
 
 
