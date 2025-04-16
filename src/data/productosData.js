@@ -1875,63 +1875,63 @@ export const productos = [
         nombre: 'Panel de Prueba de Antidoping',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/panel_anitd.png'
     },
     {
         id: 264,
         nombre: 'Prueba de Antidoping de Tira',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/antid_tira.png'
     },
     {
         id: 265,
         nombre: 'Frasco para Pruebas',
         categoria: 'Diagnóstico y Pruebas',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/frasco.png'
     },
     {
         id: 266,
         nombre: 'Prueba de Saliva',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/saliva.png'
     },
     {
         id: 267,
         nombre: 'Alcoholímetro Iblow',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/alcoh_iblow.png'
     },
     {
         id: 268,
         nombre: 'Alcoholímetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/alcohol.png'
     },
     {
         id: 269,
         nombre: 'Alcoholímetro de Pared',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/alcoh_pared.png'
     },
     {
         id: 270,
         nombre: 'Glucómetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/glucometro.png'
     },
     {
         id: 271,
         nombre: 'Baumanómetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/diagnostico/baumano.png'
     },
     // MEDICAMENTOS Y MAS
     {
