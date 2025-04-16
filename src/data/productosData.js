@@ -881,49 +881,49 @@ export const productos = [
         nombre: 'Estructura para Mop 60 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/fm_60.png'
     },
     {
         id: 122,
         nombre: 'Estructura para Mop 90 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/fm_90.png'
     },
     {
         id: 123,
         nombre: 'Estructura para Mop 120 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/fm_120.png'
     },
     {
         id: 124,
         nombre: 'Estructura para Mop 150 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/fm_90.png'
     },
     {
         id: 125,
         nombre: 'Estructura (Avión) para Mop 60 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/avm_60.png'
     },
     {
         id: 126,
         nombre: 'Estructura (Avión) para Mop 90 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/avm_90.png'
     },
     {
         id: 127,
         nombre: 'Estructura (Avión) para Mop 120 cm',
         categoria: 'Estructuras y Fundas para Mop',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/estructuras/avm_120.png'
     },
     // RECOGEDORES, CUBETAS Y MAS
     {
