@@ -1123,56 +1123,56 @@ export const productos = [
         nombre: 'Cesto de Ropa',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/cesto_ropa.png'
     },
     {
         id: 156,
         nombre: 'Bomba para Baños',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/bomba_baños.png'
     },
     {
         id: 157,
         nombre: 'Bote de Basura 12L',
         categoria: 'Botes, Cestos y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/bote12.png'
     },
     {
         id: 158,
         nombre: 'Bote de Basura 6 L',
         categoria: 'Botes, Cestos y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/bote6.png'
     },
     {
         id: 159,
         nombre: 'Bote de Basura de Colores 10 L',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/bote_colores.png'
     },
     {
         id: 160,
         nombre: 'Bastón con punta Reforzada',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/baston_reforzado.png'
     },
     {
         id: 161,
         nombre: 'Bastón Acero con Extensión 120-240 cm',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/b_acero.png'
     },
     {
         id: 162,
         nombre: 'Bastón de Madera',
         categoria: 'Botes, Cestos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/botes/b_madera.png'
     },
     // JARCERIA
     {
