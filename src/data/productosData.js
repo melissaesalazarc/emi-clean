@@ -1180,154 +1180,154 @@ export const productos = [
         nombre: 'Pastilla de Cloro',
         categoria: 'Jarcería',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/pastillas_cloro.png'
     },
     {
         id: 164,
         nombre: 'Pastilla Institucional Azul',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/pastilla_azul.png'
     },
     {
         id: 165,
         nombre: 'Pastilla para Baño Wiese',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/p_baño_wiese.png'
     },
     {
         id: 166,
         nombre: 'Pastilla para Migitorio Azul 86g Wiese',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/p_migitorio.png'
     },
     {
         id: 167,
         nombre: 'Tapete Antisalpicadura para Migitorio Wiese',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/tapete_migitorio.png'
     },
     {
         id: 168,
         nombre: 'Matamoscas',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/matamoscas.png'
     },
     {
         id: 169,
         nombre: 'Lazo 7 mts',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/lazo.png'
     },
     {
         id: 170,
         nombre: 'Jalador 50 cm',
         categoria: 'Jarcería',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/jalador_50.png'
     },
     {
         id: 171,
         nombre: 'Jalador 40 cm',
         categoria: 'Jarcería',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/jalador_40.png'
     },
     {
         id: 172,
         nombre: 'Jalador con Esponja 20 cm',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/jalador_esponja.png'
     },
     {
         id: 173,
         nombre: 'Jerga',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/jerga.png'
     },
     {
         id: 174,
         nombre: 'Magitel',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/magitel.png'
     },
     {
         id: 175,
         nombre: 'Botella de Plástico 1 L',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/botella1l.png'
     },
     {
         id: 176,
         nombre: 'Botella de Plástico 1/2 L',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/botella12.png'
     },
     {
         id: 177,
         nombre: 'Cuadritela',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/cuadritela.png'
     },
     {
         id: 178,
         nombre: 'Guantes de Limpieza',
         categoria: 'Jarcería',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/guantes.png'
     },
     {
         id: 179,
         nombre: 'Jabón Lavalozas',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/b_madera.png'
     },
     {
         id: 180,
         nombre: 'Abrillantaador Lavaloza',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/b_madera.png'
     },
     {
         id: 181,
         nombre: 'Desincrustrante de Metales',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/b_madera.png'
     },
     {
         id: 182,
         nombre: 'Desengrasante para Parrilla Caliente',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/b_madera.png'
     },
     {
         id: 183,
         nombre: 'Sanitizante de Superficies y Utensiios de Cocina',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/b_madera.png'
     },
     {
         id: 184,
         nombre: 'Desinfectante para Frutas y Verduras',
         categoria: 'Jarcería',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/jarceria/desinfectanteFV.png'
     },
     // ESTETICA AUTOMOTRIZ
     {
