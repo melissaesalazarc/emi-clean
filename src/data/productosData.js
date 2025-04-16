@@ -974,56 +974,56 @@ export const productos = [
         nombre: 'Escoba Arcoiris',
         categoria: 'Escobas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_arcoiris.png'
     },
     {
         id: 135,
         nombre: 'Escoba de Cepillo',
         categoria: 'Escobas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_cepillo.png'
     },
     {
         id: 136,
         nombre: 'Escoba Abanico',
         categoria: 'Escobas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_abanico.png'
     },
     {
         id: 137,
         nombre: 'Escoba Industrial',
         categoria: 'Escobas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_industrial.png'
     },
     {
         id: 138,
         nombre: 'Escoba Premium Ultrasuave',
         categoria: 'Escobas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_premium.png'
     },
     {
         id: 139,
         nombre: 'Escoba tipo Cepillo para Carro',
         categoria: 'Escobas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_carro.png'
     },
     {
         id: 140,
         nombre: 'Escoba Peñolera',
         categoria: 'Escobas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_peñolera.png'
     },
     {
         id: 141,
         nombre: 'Escoba Super',
         categoria: 'Escobas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/escobas/e_super.png'
     },
     // CEPILLOS
     {
