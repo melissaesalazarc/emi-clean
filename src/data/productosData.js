@@ -1031,91 +1031,91 @@ export const productos = [
         nombre: 'Cepillo Curvo',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_curvo.png'
     },
     {
         id: 143,
         nombre: 'Cepillo de Ixtle 6"',
         categoria: 'Cepillos',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_ixtle6.png'
     },
     {
         id: 144,
         nombre: 'Cepillo de Ixtle 8"',
         categoria: 'Cepillos',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_ixtle8.png'
     },
     {
         id: 145,
         nombre: 'Cepillo Escobeta',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_escobeta.png'
     },
     {
         id: 146,
         nombre: 'Cepillo Lava Platos Alemán',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_aleman.png'
     },
     {
         id: 147,
         nombre: 'Cepillo Manual tipo Plancha',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_plancha.png'
     },
     {
         id: 148,
         nombre: 'Cepillo Manualito',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_manualito.png'
     },
     {
         id: 149,
         nombre: 'Cepillo Manualito Grande',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_manualitoG.png'
     },
     {
         id: 150,
         nombre: 'Cepillo para Baño',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_baño.png'
     },
     {
         id: 151,
         nombre: 'Cepillo para Baño con Base',
         categoria: 'Cepillos',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_bañobase.png'
     },
     {
         id: 152,
         nombre: 'Cepillo tipo Plancha Alemana',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_plan_alemana.png'
     },
     {
         id: 153,
         nombre: 'Cepillo tipo Plancha Italiana',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_plancha_italiana.png'
     },
     {
         id: 154,
         nombre: 'Cepillo tipo Plancha Italiana Grande',
         categoria: 'Cepillos',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/cepillos/c_plancha_italianaG.png'
     },
     //BOTES,CESTOS y MAS
     {
