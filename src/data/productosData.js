@@ -2227,63 +2227,63 @@ export const productos = [
         nombre: 'Boya Amarilla',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/boya.png'
     },
     {
         id: 315,
         nombre: 'Vialetas Plásticas',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/vialetas.png'
     },
     {
         id: 316,
         nombre: 'Tope Grande',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/topeG.png'
     },
     {
         id: 317,
         nombre: 'Tope Chico',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/topeC.png'
     },
     {
         id: 318,
         nombre: 'Poste Alineador',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/poste.png'
     },
     {
         id: 319,
         nombre: 'Barrera solapada',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/barrera.png'
     },
     {
         id: 320,
         nombre: 'Trafitambo',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/trafiambo.png'
     },
     {
         id: 321,
         nombre: 'Cono',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/cono.png'
     },
     {
         id: 322,
         nombre: 'Señal de Alto',
         categoria: 'Seguridad Vial',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/seguridad/alto.png'
     },
     // EQUIPO DE SEGURIDAD
     {
