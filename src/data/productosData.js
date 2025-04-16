@@ -931,42 +931,42 @@ export const productos = [
         nombre: 'Recogedor Económico',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/r_economico.png'
     },
     {
         id: 129,
         nombre: 'Recogedor de Media Luna de Plástico',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/r_mediaLuna.png'
     },
     {
         id: 130,
         nombre: 'Pinzas',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/pinzas.png'
     },
     {
         id: 131,
         nombre: 'Plumero',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/plumero.png'
     },
     {
         id: 132,
         nombre: 'Cubeta #12',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/cubeta12.png'
     },
     {
         id: 133,
         nombre: 'Cubeta Exprimidora 20L',
         categoria: 'Recogedores, Cubetas y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/recogedores/cubeta20.png'
     },
     //ESCOBAS
     {
