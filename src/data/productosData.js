@@ -39,42 +39,42 @@ export const productos = [
         nombre: 'Abrillantador en Gel',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 3,
         nombre: 'Auto Shampoo',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 4,
         nombre: 'Auto Shampoo Alta Espuma',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 5,
         nombre: 'Desengrasante Industrial',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 6,
         nombre: 'Limpiador de Vestiduras',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 7,
         nombre: 'Cera Líquida',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 8,
@@ -223,56 +223,56 @@ export const productos = [
         nombre: 'Windex',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 29,
         nombre: 'Ácido Muriático"',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 30,
         nombre: 'Sarricida',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 31,
         nombre: 'Cloro',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 32,
         nombre: 'Pinol',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 33,
         nombre: 'Fabuloso Aromas Variados',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 34,
         nombre: 'Desengransante para Parrilla',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 35,
         nombre: 'Detergente Líquido Tipo Ariel',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 36,
@@ -286,42 +286,42 @@ export const productos = [
         nombre: 'Detergente Tipo Vanish',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 38,
         nombre: 'Detergente Líquido Tipo Zote',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 39,
         nombre: 'Suavizante de Telas Aromas Varios',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 40,
         nombre: 'Insecticida (arañas, hormigas, cucarachas)',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 41,
         nombre: 'Jabón para Manos Aromas Variados',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 42,
         nombre: 'Jabón Lavatrastes tipo Axión',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 43,
@@ -1335,539 +1335,539 @@ export const productos = [
         nombre: 'Restaurador de Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/restaurador_B_sonax.png'
     },
     {
         id: 186,
         nombre: 'Limpiador de Rines Plus Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/sonax_rines.png'
     },
     {
         id: 187,
         nombre: 'Sellado en Spray Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/sonax-spray.png'
     },
     {
         id: 188,
         nombre: 'Cera Rápida de Alto Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/cera_rapida_sonax.png'
     },
     {
         id: 189,
         nombre: 'Shampoo Alto Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/sonax_shampoo.png'
     },
     {
         id: 190,
         nombre: 'Limpia Tapices Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/S_tapices.png'
     },
     {
         id: 191,
         nombre: 'Limpiador de AC Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/s_ac.png'
     },
     {
         id: 192,
         nombre: 'Profiline NP 03-06 Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/s_0306.png'
     },
     {
         id: 193,
         nombre: 'Pulimento Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/pulimento_f.png'
     },
     {
         id: 194,
         nombre: 'Renovador de Goma Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/goma_s.png'
     },
     {
         id: 195,
         nombre: 'Quita Alquitrán Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/alquitran_s.png'
     },
     {
         id: 196,
         nombre: 'Claydisc 150 mm Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/claydisc_s.png'
     },
     {
         id: 197,
         nombre: 'Esponja Pulidora Gris 160 Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/pulidora_s.png'
     },
     {
         id: 198,
         nombre: 'Lija B-99 Micro Fino Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/lija_fandeli.png'
     },
     {
         id: 199,
         nombre: 'Aceite Lubricante Hidráulico',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/lubricante_h.png'
     },
     {
         id: 200,
         nombre: 'Protector de Vinil Chemical Guys',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/vinil_CG.png'
     },
     {
         id: 201,
         nombre: '',
         categoria: 'Cera Líquida Chemical Guys',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/ceraCG.png'
     },
     {
         id: 202,
         nombre: 'Compuesto Pulidor 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/pulidor3m.png'
     },
     {
         id: 203,
         nombre: 'Pulimento para Faros Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/farosS.png'
     },
     {
         id: 204,
         nombre: 'Plastilina Limpiadora 3M',
         categoria: 'Estética Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/plastilina3m.png'
     },
     {
         id: 205,
         nombre: 'Abrasivo para Cromo y Aluminio Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/abrasivoS.png'
     },
     {
         id: 206,
         nombre: 'Quita Goma de Alfombras 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/goma3m.png'
     },
     {
         id: 207,
         nombre: 'Cera en Pasta 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/cera_pasta3M.png'
     },
     {
         id: 208,
         nombre: 'Limpia Frenos Química TF',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/frenosQTF.png'
     },
     {
         id: 209,
         nombre: 'Masilla de Acabado Premium 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/masilla3m.png'
     },
     {
         id: 210,
         nombre: 'Arrancador para Motores Química TF',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/arrancadorQTF.png'
     },
     {
         id: 211,
         nombre: 'Protector de Terminal de Baterías Gunk',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/grasaBard.png'
     },
     {
         id: 212,
         nombre: 'Limpiador de Terminal de Baterías Gunk',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/grasaBard.png'
     },
     {
         id: 213,
         nombre: 'Silenciador para Frenos de Disco TF',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/frenosQTF.png'
     },
     {
         id: 214,
         nombre: 'Aflojatodo Auto Zone',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/aflojatodoAZ.png'
     },
     {
         id: 215,
         nombre: 'Super Aflojatodo TF',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/s_aflojatodotf.png'
     },
     {
         id: 216,
         nombre: 'Clean and Shine 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/cleanNshine3m.png'
     },
     {
         id: 217,
         nombre: 'Limpiador de Piel y Vinil 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/LPiel_vinil3m.png'
     },
     {
         id: 218,
-        nombre: 'Cera Limpiadora',
+        nombre: 'Cera Limpiadora 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/ceraLimp_3m.png'
     },
     {
         id: 220,
         nombre: 'Cera Suave para Auto 3M',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/C_suave3M.png'
     },
     {
         id: 221,
         nombre: 'Removedor de Rayones Turtle Wax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/rayones_turtleW.png'
     },
     {
         id: 222,
         nombre: 'Limpiador de Vidrio Repelente a la Lluvia',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/vidrios_repelente.png'
     },
     {
         id: 223,
         nombre: 'Limpiador de Vidrios 3M',
         categoria: 'Estética Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/L_vidrios3m.png'
     },
     {
         id: 224,
         nombre: 'Profiline Speedprotect Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/profiline_sonax.png'
     },
     {
         id: 225,
         nombre: 'Limpiador de Plásticos Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/plasticos_profi_sonax.png'
     },
     {
         id: 226,
         nombre: 'HW 02-04 Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/hw0204.png'
     },
     {
         id: 227,
         nombre: 'Removedor de Manchas de Agua Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/manchas_agua_s.png'
     },
     {
         id: 228,
         nombre: 'Visión Clara 1:100 Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/1100_sonax.png'
     },
     {
         id: 229,
         nombre: 'Spray Anti Empañante Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/anti_empañante.png'
     },
     {
         id: 230,
         nombre: 'Limpia Tapices Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/tapices_sonaax.png'
     },
     {
         id: 231,
         nombre: 'Pulimento Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/pulimento_f.png'
     },
     {
         id: 232,
         nombre: 'Esponja Multiusos 2 en 1 Sonax',
         categoria: 'Estética Automotriz',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/esponja_sonax.png'
     },
     {
         id: 233,
         nombre: 'Cepillo de Rin Ultra Suave Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/cepillorin.png'
     },
     {
         id: 234,
         nombre: 'Flexi Espatula Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/flexi_sonax.png'
     },
     {
         id: 235,
         nombre: 'Esponja Aplicadora Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/E_aplicadora_s.png'
     },
     {
         id: 236,
         nombre: 'Shampoo Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/sBrilloS.png'
     },
     {
         id: 237,
         nombre: 'Shampoo con Cera Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/SCeraS.png'
     },
     {
         id: 238,
         nombre: 'Polish and Wax Color Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/polishNwaxS.png'
     },
     {
         id: 239,
         nombre: 'Limpia Insectos Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/insectosS.png'
     },
     {
         id: 240,
         nombre: 'Lack Prepare Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/lackPrepareS.png'
     },
     {
         id: 241,
         nombre: 'Renovador de Gomas Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/renovadro_gomasS.png'
     },
     {
         id: 242,
         nombre: 'Sellador en Spray Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/selladorSpSonax.png'
     },
     {
         id: 243,
         nombre: 'Restaurador de Brillo Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/R_brilloSonax.png'
     },
     {
         id: 244,
         nombre: 'Supreme Discs Foam Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/supremeDiscF.png'
     },
     {
         id: 245,
         nombre: 'Recubrimiento Cerámico Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/recubrimientoSOnax.png'
     },
     {
         id: 246,
         nombre: 'Easy Shine Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/easyShineS.png'
     },
     {
         id: 247,
         nombre: 'Protector de Interiores Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/prot_int_sonax.png'
     },
     {
         id: 248,
         nombre: 'Glass Polish Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/glas_polishSonax.png'
     },
     {
         id: 249,
         nombre: 'Renovador Plástico Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/renovadorPlastSonax.png'
     },
     {
         id: 250,
         nombre: 'Borrador de Suciedad Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/borra_suciedad.png'
     },
     {
         id: 251,
         nombre: 'Limpia Parabrisas',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/limpiaParabrisas.png'
     },
     {
         id: 252,
         nombre: 'Hybrid Wool Pad 143 DA Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/woolPad143.png'
     },
     {
         id: 253,
         nombre: 'Cut and Finish Profiline Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/cutNfisishSon.png'
     },
     {
         id: 254,
         nombre: 'Almohadilla de Espuma Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/almohadillaSOnax.png'
     },
     {
         id: 255,
         nombre: 'Plastilina Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/PlastiSonax.png'
     },
     {
         id: 256,
         nombre: 'Esponja para Aplicaciones Sonax',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/esponja_aplicadores.png'
     },
     {
         id: 257,
         nombre: 'Masking Automotriz 2" Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/masking2.png'
     },
     {
         id: 258,
         nombre: 'Masking Automotriz 3/4" Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/masking2.png'
     },
     {
         id: 259,
         nombre: 'Masking Automotriz 1/2" Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/masking12.png'
     },
     {
         id: 260,
         nombre: 'Masking Automotriz 1" Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/masking1.png'
     },
     {
         id: 261,
         nombre: 'Jalador para Vidrio',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/jalador.png'
     },
     {
         id: 262,
         nombre: 'Rellenador Ligero Fandeli',
         categoria: 'Estética Automotriz',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/rellenadorF.png'
     },
     // DIAGNOSTICO Y PRUEBAS
     {
@@ -1875,63 +1875,63 @@ export const productos = [
         nombre: 'Panel de Prueba de Antidoping',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 264,
         nombre: 'Prueba de Antidoping de Tira',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 265,
         nombre: 'Frasco para Pruebas',
         categoria: 'Diagnóstico y Pruebas',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 266,
         nombre: 'Prueba de Saliva',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 267,
         nombre: 'Alcoholímetro Iblow',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 268,
         nombre: 'Alcoholímetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 269,
         nombre: 'Alcoholímetro de Pared',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 270,
         nombre: 'Glucómetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 271,
         nombre: 'Baumanómetro',
         categoria: 'Diagnóstico y Pruebas',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     // MEDICAMENTOS Y MAS
     {
@@ -1939,294 +1939,294 @@ export const productos = [
         nombre: 'Aspitak P 30 Compuesto 100 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 273,
         nombre: 'Doloxen 10 Tabletas 100 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 274,
         nombre: 'Farex Ibuprofeno 10 Tabletas 600 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 275,
         nombre: 'Ketorolaco INY 30 ML',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 276,
         nombre: 'Mavidol SL 4 Tabletas 30 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 277,
         nombre: 'Metoclopramida 6 Ampolletas 10mg/2ml',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 278,
         nombre: 'Dirpasid 20 Tabletas 10 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 279,
         nombre: 'Portem 10 Tbletas 500 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 280,
         nombre: 'KY6 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 281,
         nombre: 'Masferol 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 282,
         nombre: ' Rosel 24 Tabletas 300mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 283,
         nombre: ' Cinarizina Ultra 60 Tabletas 75 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 284,
         nombre: 'Venda Elástica #10',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 285,
         nombre: 'Gasas 10x10',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 286,
         nombre: 'Gasas 7.5x7.5',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 287,
         nombre: ' Cinta Microporosa 1"',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 288,
         nombre: 'Bandas Adhesivas (Curitas)',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 289,
         nombre: 'Mertiolate 30 ml',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 290,
         nombre: 'Algodón 500 g',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 291,
         nombre: 'Cartilla de Snellen para Examen Visual',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 292,
         nombre: 'Botiquín de Primeros Auxilios',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 293,
         nombre: ' Termómetro Infrarrojo',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 294,
         nombre: 'Oxímetro de Pulso Digital',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 295,
         nombre: 'Tiras Reactivas para Glucómetro Active',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 296,
         nombre: 'Lancetas Soft Clix',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 297,
         nombre: 'Alcohol Etílico 70%',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 298,
         nombre: 'Extintor de 6.8 kg Dióxido de Carbono',
         categoria: 'Medicamentos y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 299,
         nombre: ' Extintor de 6 kg Clase K',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 300,
         nombre: '',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 301,
         nombre: 'Diclofenaco 100 mg 20 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 302,
         nombre: 'Clorfenamina 4 mg 20 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 303,
         nombre: ' Loperamida 2 mg 12 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 304,
         nombre: ' Difenidol 25 mg 30 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 305,
         nombre: 'Sal de Uvas Picot 12 Sobres',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 306,
         nombre: 'Benzonatato 100 mg Perlas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 307,
         nombre: 'Dextrometorfano 15 mg',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 308,
         nombre: 'Hioscina 10 mg 10 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 309,
         nombre: 'Ciprofloxacino 250 mg 12 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 310,
         nombre: 'Omeprazol',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 311,
         nombre: 'Aspirinas 500 mg 40 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 312,
         nombre: 'Dramamine 50 mg 24 Tabletas',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 313,
         nombre: 'Pepto Bismol',
         categoria: 'Medicamentos y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     // SEGURIDAD VIAL
     {
@@ -2234,63 +2234,63 @@ export const productos = [
         nombre: 'Boya Amarilla',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 315,
         nombre: 'Vialetas Plásticas',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 316,
         nombre: 'Tope Grande',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 317,
         nombre: 'Tope Chico',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 318,
         nombre: 'Poste Alineador',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 319,
         nombre: 'Barrera solapada',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 320,
         nombre: 'Trafitambo',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 321,
         nombre: 'Cono',
         categoria: 'Seguridad Vial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 322,
         nombre: 'Señal de Alto',
         categoria: 'Seguridad Vial',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     // EQUIPO DE SEGURIDAD
     {
@@ -2298,56 +2298,56 @@ export const productos = [
         nombre: 'Lentes de Seguridad',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 324,
         nombre: 'Calzado de Seguridad',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 325,
         nombre: 'Chaleco Reflejante',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 326,
         nombre: 'Faja',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 327,
         nombre: 'Guante Anticorte',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 328,
         nombre: 'Guante de Nylon Nitrilo',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 329,
         nombre: 'Tapón de Oído desechable',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 330,
         nombre: 'Orejeras',
         categoria: 'Equipo de Seguridad',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     //FERRETERIA Y MAS
     {
@@ -2355,175 +2355,175 @@ export const productos = [
         nombre: 'Broca de 3/6',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 332,
         nombre: 'Broca de 3/8',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 333,
         nombre: 'Broca de 5/16',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 334,
         nombre: 'Calibrador de Aire de 150 lbs',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 335,
         nombre: 'Clavija para Extensión Plástica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 336,
         nombre: 'Conector Glandular 3/4',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 337,
         nombre: 'Contacto Duplex Volteck',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 338,
         nombre: 'Disco de Corte para Metal 4 1/2',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 339,
         nombre: 'Gas Butano',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 340,
         nombre: 'Gas Refrigerante',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 341,
         nombre: 'Machuelo 7/16',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 342,
         nombre: 'Machuelo 1/2 Estándar',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 343,
         nombre: 'Parche',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 344,
         nombre: 'Pija 1/4 x 1" 1/2',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 345,
         nombre: 'Piola Estándard',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 346,
         nombre: 'Placa de Aluminio Gris',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 347,
         nombre: 'Remache de 3/16" x 3/4"',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 348,
         nombre: 'Multicontactos',
         categoria: 'Ferretería y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 349,
         nombre: 'Cable de uso Rudo 1 m',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 350,
         nombre: 'Extensión Eléctrica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 351,
         nombre: 'Martillo',
         categoria: 'Ferretería y Más',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 352,
         nombre: 'Desarmador',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 353,
         nombre: 'Destornillador',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 354,
         nombre: 'Sierra Eléctrica',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 355,
         nombre: 'Sierra',
         categoria: 'Ferretería y Más',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     // SEGURIDAD INDUSTRIAL
     {
@@ -2531,63 +2531,63 @@ export const productos = [
         nombre: 'Cinta de Precaución',
         categoria: 'Seguridad Industrial',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 357,
         nombre: 'Cinta de Prohibido el Paso',
         categoria: 'Seguridad Industrial',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 358,
         nombre: 'Malla Delimitadora',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 359,
         nombre: 'Casco',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 360,
         nombre: 'Careta de Soldador',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 361,
         nombre: 'Mandil de Carnaza',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 362,
         nombre: 'Manga de Kevlar',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 363,
         nombre: 'Overol Desechable',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
     {
         id: 364,
         nombre: 'Árnes Sencillo',
         categoria: 'Seguridad Industrial',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/autos/desinfectanteFV.png'
     },
 
 
