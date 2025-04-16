@@ -824,56 +824,56 @@ export const productos = [
         nombre: 'Fibra de Metal (Delgada)',
         categoria: 'Fibras',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_delgada.png'
     },
     {
         id: 114,
         nombre: 'Fibra de Metal (Gruesa)',
         categoria: 'Fibras',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_gruesa.png'
     },
     {
         id: 115,
         nombre: 'Firba Negra Delgada p/Acero Inoxidable',
         categoria: 'Fibras',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_negra_delgada.png'
     },
     {
         id: 116,
         nombre: 'Fibra Negra Delgada p/Parrillas',
         categoria: 'Fibras',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_negra_parrillas.png'
     },
     {
         id: 117,
         nombre: 'Fibra P96 Scotch 3M',
         categoria: 'Fibras',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_3m.png'
     },
     {
         id: 118,
         nombre: 'Fibra Scotch Brite Verde con Amarrillo',
         categoria: 'Fibras',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_verde_amarillo.png'
     },
     {
         id: 119,
         nombre: 'Fibra Verde con Amarillo (Par)',
         categoria: 'Fibras',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/fibra_verde_amarillo_par.png'
     },
     {
         id: 120,
         nombre: 'Franela Gris',
         categoria: 'Fibras',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/fibras/franela_gris.png'
     },
     //
     {
