@@ -767,56 +767,56 @@ export const productos = [
         nombre: 'Trapeador de Hilaza #20',
         categoria: 'Trapeadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_hilaza20.png'
     },
     {
         id: 106,
         nombre: 'Trapeador de Hilaza #30',
         categoria: 'Trapeadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_hilaza30.png'
     },
     {
         id: 107,
         nombre: 'Trapeador de Magitel',
         categoria: 'Trapeadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_magitel.png'
     },
     {
         id: 108,
         nombre: 'Trapeador de Pabilo #30',
         categoria: 'Trapeadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_pabilo30.png'
     },
     {
         id: 109,
         nombre: 'Trapeador de Pabilo #40',
         categoria: 'Trapeadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_pabilo40.png'
     },
     {
         id: 110,
         nombre: 'Trapeador Industrial 1 kg',
         categoria: 'Trapeadores',
         destacado: false,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_industrial.png'
     },
     {
         id: 111,
         nombre: 'Trapeador de Microfibra (CH, M, G)',
         categoria: 'Trapeadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_microfirba.png'
     },
     {
         id: 112,
         nombre: 'Trapeador de Microfibra Española',
         categoria: 'Trapeadores',
         destacado: true,
-        imagen: '/images/productos/aromatizante-lavanda.jpg'
+        imagen: '/images/trapeadores/t_microfibra_española.png'
     },
     //FIBRAS
     {
