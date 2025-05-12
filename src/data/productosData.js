@@ -32,42 +32,42 @@ export const productos = [
         nombre: 'Abrillantador para Llantas',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/productos/limpiador-multiusos.jpg'
+        imagen: '/images/faltantes/abrillantadorB.png'
     },
     {
         id: 2,
         nombre: 'Abrillantador en Gel',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/abrillantadorB.png'
     },
     {
         id: 3,
         nombre: 'Auto Shampoo',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/autoSB.png'
     },
     {
         id: 4,
         nombre: 'Auto Shampoo Alta Espuma',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/autoSB.png'
     },
     {
         id: 5,
         nombre: 'Desengrasante Industrial',
         categoria: 'Lavado Automotriz',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/desengrasanteb.png'
     },
     {
         id: 6,
         nombre: 'Limpiador de Vestiduras',
         categoria: 'Lavado Automotriz',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/autoSB.png'
     },
     {
         id: 7,
@@ -223,7 +223,7 @@ export const productos = [
         nombre: 'Windex',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/windexB.png'
     },
     {
         id: 29,
@@ -244,35 +244,35 @@ export const productos = [
         nombre: 'Cloro',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/Clorobaemi.png'
     },
     {
         id: 32,
         nombre: 'Pinol',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/autos/pinolB.png'
     },
     {
         id: 33,
-        nombre: 'Fabuloso Aromas Variados',
+        nombre: 'Limpiador Multiusuos',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/limpMB.png'
     },
     {
         id: 34,
         nombre: 'Desengransante para Parrilla',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/desengrasanteb.png'
     },
     {
         id: 35,
         nombre: 'Detergente Líquido Tipo Ariel',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/ArielB.png'
     },
     {
         id: 36,
@@ -286,7 +286,7 @@ export const productos = [
         nombre: 'Detergente Tipo Vanish',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/vanishB.png'
     },
     {
         id: 38,
@@ -300,7 +300,7 @@ export const productos = [
         nombre: 'Suavizante de Telas Aromas Varios',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/suavizanteB.png'
     },
     {
         id: 40,
@@ -314,14 +314,14 @@ export const productos = [
         nombre: 'Jabón para Manos Aromas Variados',
         categoria: 'Líquidos para el Hogar',
         destacado: false,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/shampooManosB.png'
     },
     {
         id: 42,
         nombre: 'Jabón Lavatrastes tipo Axión',
         categoria: 'Líquidos para el Hogar',
         destacado: true,
-        imagen: '/images/autos/desinfectanteFV.png'
+        imagen: '/images/faltantes/LavatrastesB.png'
     },
     {
         id: 43,
