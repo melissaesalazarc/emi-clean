@@ -96,7 +96,7 @@ const About = () => {
               Nuestras <span className="text-[#188994]">Sucursales</span>
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-3 gap-12">
               {/* Sucursal 1 */}
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
@@ -105,7 +105,7 @@ const About = () => {
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#096D73] to-transparent opacity-90 p-8 flex flex-col justify-end">
-                  <h3 className="text-3xl font-bold text-white mb-2">Sucursal Saltillo</h3>
+                  <h3 className="text-3xl font-bold text-white mb-2">Sucursal Saltillo República Ote </h3>
                   <p className="text-[#A3D977] mb-4">Quintana Roo 931, República Oriente, 25280 Saltillo, Coah.</p>
                   <div className="flex items-center space-x-2 text-white">
                     <span>🕒 9:00 - 18:00</span>
@@ -146,6 +146,30 @@ const About = () => {
                 </a>
               </div>
             </div>
+                          {/* Sucursal 1 */}
+                          <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
+                <img 
+                  src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf" 
+                  alt="Sucursal Saltillo"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#096D73] to-transparent opacity-90 p-8 flex flex-col justify-end">
+                  <h3 className="text-3xl font-bold text-white mb-2">Sucursal Saltillo Tulipanes</h3>
+                  <p className="text-[#A3D977] mb-4">Local #16 Plaza Tulipanes (Blvd. Eulalio Gtz y Av. Don Juan Saade Murra)</p>
+                  <div className="flex items-center space-x-2 text-white">
+                    <span>🕒 9:00 - 18:00</span>
+                    <span>📞 (52)  1 844 405 9196</span>
+                  </div>
+                  <a
+                    href="https://maps.app.goo.gl/kZrFNnKCrTcmpWE28"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 inline-block px-6 py-2 bg-[#F9D976] text-[#096D73] rounded-full font-semibold self-start hover:bg-white transition duration-300"
+                  >
+                    Ver en mapa
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </section>

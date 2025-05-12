@@ -18,7 +18,7 @@ const Footer = () => {
 
             {/* Columna 2: Contacto */}
             <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Saltillo</h3>
+            <h3 className="text-lg font-semibold">Saltillo República Ote</h3>
             <ul className="space-y-2">
               <li className="text-gray-200">Email: baemi.group@gmail.com</li>
               <li className="text-gray-200">Teléfono: +52 1 844 405 9196</li>
@@ -35,43 +35,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Columna 4: Redes sociales */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Síguenos</h3>
-            <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
-              >
-                <i className="fab fa-facebook text-2xl"></i>
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
-              >
-                <i className="fab fa-twitter text-2xl"></i>
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
-              >
-                <i className="fab fa-instagram text-2xl"></i>
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-[#F9D976] transition duration-300"
-              >
-                <i className="fab fa-linkedin text-2xl"></i>
-              </a>
-            </div>
+         {/* Columna 2: Contacto */}
+         <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Saltillo Tulipanes</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-200">Email: baemi.group@gmail.com</li>
+              <li className="text-gray-200">Teléfono: +52 1 844 405 9196</li>
+              <li className="text-gray-200">Local #16 Plaza Tulipanes (Blvd. Eulalio Gtz y Av. Don Juan Saade Murra)</li>
+            </ul>
           </div>
         </div>
 
