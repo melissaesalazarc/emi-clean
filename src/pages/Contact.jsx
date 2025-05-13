@@ -185,13 +185,43 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* CTA Adicional */}
-      <section className="py-16 bg-gradient-to-r from-[#F9D976] to-[#A3D977] text-center px-4">
-        <h2 className="text-3xl font-bold text-[#087989] mb-6">¿Prefieres que te llamemos?</h2>
-        <p className="text-xl text-[#096D73] mb-8">Déjanos tu número y horario preferido.</p>
-        <button className="bg-[#178FA8] text-white px-8 py-3 rounded-full font-bold hover:bg-[#096D73] transition">
-          Solicitar Llamada
-        </button>
+       {/* WhatsApp CTA Section */}
+       <section className="py-20 bg-[#A3D977]">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h2 className="text-3xl font-bold mb-8 text-[#087989]">
+            ¿Prefieres contactarnos por WhatsApp?
+          </h2>
+          <a
+            href="https://wa.me/5218444059196?text=Hola%20Baemi%20Group,%20me%20interesan%20sus%20productos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative inline-flex items-center justify-center 
+                       px-10 py-4 font-bold rounded-full overflow-hidden
+                       text-white hover:text-[#087989]
+                       transition-all duration-500 ease-in-out
+                       shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
+                       hover:scale-105 group"
+            style={{ background: "#178FA8" }}
+          >
+            <span className="relative z-10 flex items-center">
+            <img 
+              src="/images/WhatsApp.png"
+              alt="WhatsApp"
+              className="w-6 h-6 mr-2"
+            />
+
+              Envíanos un WhatsApp
+              <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+              </span>
+            </span>
+            <span 
+              className="absolute inset-0 z-0 rounded-full 
+                         bg-gradient-to-r from-[#F9D976] to-[#A3D977]
+                         opacity-0 group-hover:opacity-100
+                         transition-opacity duration-500"
+            ></span>
+          </a>
+        </div>
       </section>
 
       <Footer />
