@@ -100,7 +100,7 @@ const About = () => {
               {/* Sucursal 1 */}
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
-                  src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf" 
+                  src="/images/about/brep.jpg"
                   alt="Sucursal Saltillo"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
@@ -125,10 +125,11 @@ const About = () => {
               {/* Sucursal 2 */}
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab" 
+                  src="/images/about/bcdmx.jpg"
                   alt="Sucursal CDMX"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
+                
                 <div className="absolute inset-0 bg-gradient-to-t from-[#188994] to-transparent opacity-90 p-8 flex flex-col justify-end">
                   <h3 className="text-3xl font-bold text-white mb-2">Sucursal CDMX</h3>
                   <p className="text-[#F9D976] mb-4">Calle 22-A, no. 77, Santa Rosa, Alcaldia Gustavo A Madero, CDMX</p>
@@ -137,7 +138,7 @@ const About = () => {
                     <span>📞 (52) 1 55 4536 0987</span>
                   </div>
                   <a
-                  href="https://maps.app.goo.gl/Ty6fczrFVmbADh2d9"
+                  href="https://maps.app.goo.gl/AkAPtBeXzxM2eD4Z9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 inline-block px-6 py-2 bg-[#A3D977] text-[#096D73] rounded-full font-semibold self-start hover:bg-white transition duration-300"
@@ -147,9 +148,9 @@ const About = () => {
               </div>
             </div>
                           {/* Sucursal 1 */}
-                          <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
+              <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
-                  src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf" 
+                  src="/images/about/btulip.jpeg"
                   alt="Sucursal Saltillo"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
