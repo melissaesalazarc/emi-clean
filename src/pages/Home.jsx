@@ -68,17 +68,15 @@ const Home = () => {
     },
   };
 
-
-  
   return (
-    <div className="w-full h-[300px] md:h-[500px] relative">
+      <div className="w-full h-[50vh] min-h-[250px] max-h-[500px] relative ">
       {/* Carrusel de videos */}
         <Swiper {...swiperParams} className="w-full h-full">
           <SwiperSlide>
             <video
               src={baemi}
               alt="Baemi"
-              className="w-full h-full object-cover"
+              className="w-auto min-w-full min-h-full object-cover"
               autoPlay
               loop
               muted
@@ -89,7 +87,7 @@ const Home = () => {
             <video
               src={industrias}
               alt="Industrias"
-              className="w-full h-full object-cover"
+              className="w-auto min-w-full min-h-full object-cover"
               autoPlay
               loop
               muted
@@ -100,7 +98,7 @@ const Home = () => {
             <video
               src={spray}
               alt="Spray"
-              className="w-full h-full object-cover"
+              className="w-auto min-w-full min-h-full object-cover"
               autoPlay
               loop
               muted
@@ -224,7 +222,7 @@ const Home = () => {
 
       {/* Sección Sobre Nosotros */}
       <div
-      className="relative h-[400px] md:h-[500px] flex items-center justify-center bg-cover bg-center"
+      className="relative min-h-[300px] md:h-[500px] flex items-center py-8 md:py-0 justify-center bg-cover bg-center bg-fixed"
       style={{ backgroundImage: `url(${limpieza})` }}
     >
       {/* Overlay para oscurecer la imagen de fondo */}
@@ -236,8 +234,8 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }} // Estado final: visible y en su posición original
         transition={{ duration: 0.8, ease: 'easeOut' }} // Duración y tipo de animación
         viewport={{ twice: true }} // La animación solo se ejecuta una vez
-        className="relative z-10 bg-white bg-opacity-90 p-6 md:p-8 rounded-xl shadow-2xl w-full md:max-w-2xl mx-4 md:mx-8 text-left transform transition-all hover:scale-105 hover:bg-opacity-100"
-      >
+        className="relative z-10 bg-white bg-opacity-90 p-4 mx-4 md:p-8 rounded-xl shadow-2xl w-full max-w-md md:max-w-2xl transform transition-all hover:scale-105 hover:bg-opacity-100"
+     >
         <h2 className="text-4xl font-bold mb-6 text-[#087989]">
           Sobre Nosotros
         </h2>
