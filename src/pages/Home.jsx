@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Footer from '../components/Footer'; // Importa el Footer
+import Footer from '../components/Footer'; 
 
 // Importar las imágenes desde la carpeta images
 import baemi from '../videos/baemi_home.mp4';
@@ -32,7 +32,7 @@ const Home = () => {
   // Configuración del carrusel
   const swiperParams = {
     modules: [Autoplay, Navigation, Pagination],
-    spaceBetween: 30,
+    spaceBetween: 0,
     centeredSlides: true,
     loop: true,
     autoplay: {
@@ -47,30 +47,26 @@ const Home = () => {
   // MARCAS
   const marcasSwiperParams = {
     modules: [Autoplay, Navigation],
-    spaceBetween: 30, //margen entre cada uno
+    spaceBetween: 20,//margen entre cada uno
     slidesPerView: 'auto', // Muestra las marcas en una línea horizontal
     loop: true, // Activar el modo loop
     autoplay: {
-      delay: 3000, // Cambia de marca cada 3 segundos
+      delay: 2500,
       disableOnInteraction: false,
     },
     navigation: true, // Flechas de navegación
-    breakpoints: {
-      // Ajustes responsivos
-      640: {
-        spaceBetween: 20,
-        slidesPerView: 3,
-      },
-      1024: {
-        spaceBetween: 30,
-        slidesPerView: 5,
-      },
+      breakpoints: {
+        640: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 5 }
+      
     },
   };
 
   return (
-      <div className="w-full h-[50vh] min-h-[250px] max-h-[500px] relative ">
+    <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
       {/* Carrusel de videos */}
+      <section className="relative w-full h-[60vh] min-h-[400px] max-h-[600px] overflow-hidden">
         <Swiper {...swiperParams} className="w-full h-full">
           <SwiperSlide>
             <video
@@ -106,10 +102,10 @@ const Home = () => {
             />
           </SwiperSlide>
         </Swiper>
-
-      
+        </section>
 
       {/* Sección de Productos Destacados */}
+      <section className="py-12 px-4 max-w-6xl mx-auto w-full">
       <div id="productos" className="py-16 bg-gris-claro">
         <div className="max-w-6xl mx-auto px-4 text-center">
           {/* Título */}
@@ -117,7 +113,7 @@ const Home = () => {
             Nuestros Productos Destacados
           </h2>
           {/* Subtítulo */}
-          <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
+          <p className="text-lg md:text-xl text-[#178FA8] max-w-2xl mx-auto">
           Calidad, innovación y resultados garantizados. Descubre los productos que marcan la diferencia.
           </p>
 
@@ -187,12 +183,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      </section>
 
-     
 
        {/* MARCAS */}
-       <div className="py-16 bg-gris-claro">
-      <div className="max-w-8xl mx-auto px-4 text-center">
+       <section className="py-12  bg-gris-claro">
+       <div className="max-w-6xl mx-auto px-4">
+       <div className="text-center mb-12">
+
         {/* Título */}
         <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-4xl font-bold mb-4">
           Marcas con las que trabajamos
@@ -207,7 +205,7 @@ const Home = () => {
 <Swiper {...marcasSwiperParams} className="w-full">
   {[marca1, marca2, marca3, marca4, marca5, marca6, marca7].map((marca, index) => (
     <SwiperSlide key={index} className="w-auto">
-      <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+       <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 h-full flex items-center">
         <img
           src={marca}
           alt={`Marca ${index + 1}`}
@@ -219,8 +217,12 @@ const Home = () => {
 </Swiper>
       </div>
     </div>
+    </section>
+
 
       {/* Sección Sobre Nosotros */}
+      <section className="relative py-12 md:py-24 text-white">
+
       <div
       className="relative min-h-[300px] md:h-[500px] flex items-center py-8 md:py-0 justify-center bg-cover bg-center bg-fixed"
       style={{ backgroundImage: `url(${limpieza})` }}
@@ -276,15 +278,17 @@ const Home = () => {
 
       </motion.div>
     </div>
+    </section>
 
 
 {/* Llamado a la Acción (CTA) */}
+<section className="py-16 bg-[#A3D977]">
+
 <div className="bg-[#A3D977] py-12 md:py-16">
   <div className="max-w-4xl mx-auto text-center px-4">
     <h2 className="text-[#087989] text-3xl font-bold mb-8">
       ¿Listo para probar nuestros productos?
     </h2>
-    
     <Link
       to="/contact"
       className="relative inline-flex items-center justify-center 
@@ -315,7 +319,7 @@ const Home = () => {
     </Link>
   </div>
 </div>
-
+</section>
 
     {/*footer*/ }
     <Footer />
