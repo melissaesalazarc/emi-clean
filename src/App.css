@@ -1,20 +1,4 @@
 /* Estilos para el carrusel */
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 /* Flechas de navegación */
 .swiper-button-next,
