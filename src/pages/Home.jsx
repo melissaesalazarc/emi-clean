@@ -6,12 +6,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer'; // Importa el Footer
 
-// Importar las imágenes y videos
+// Importar las imágenes desde la carpeta images
 import baemi from '../videos/baemi_home.mp4';
 import industrias from '../videos/industrias_home.mp4';
 import spray from '../videos/spray_home.mp4';
+
 import marca1 from '../images/home/marca1.png';
 import marca2 from '../images/home/marca2.png';
 import marca3 from '../images/home/marca3.png';
@@ -19,21 +20,28 @@ import marca4 from '../images/home/marca4.png';
 import marca5 from '../images/home/marca5.png';
 import marca6 from '../images/home/marca6.png';
 import marca7 from '../images/home/marca7.png';
+
 import articulosLimpieza from '../images/home/articulosLimpieza.png';
 import lavadoAutomotriz from '../images/home/lavadoAutomotriz.png';
 import liquidosHogar from '../images/home/liquidosHogar.png';
 import papel from '../images/home/papel.png';
+
 import limpieza from '../images/home/limpieza.png';
 
+
+
+
+
+
 const Home = () => {
-  // Configuración del carrusel principal
+  // Configuración del carrusel
   const swiperParams = {
     modules: [Autoplay, Navigation, Pagination],
-    spaceBetween: 0,
+    spaceBetween: 30,
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000, // Cambia de imagen cada 5 segundos
       disableOnInteraction: false,
     },
     pagination: {
@@ -41,28 +49,36 @@ const Home = () => {
     },
     navigation: true,
   };
-
-  // Configuración del carrusel de marcas
+  // MARCAS
   const marcasSwiperParams = {
-    modules: [Autoplay],
-    spaceBetween: 30,
-    slidesPerView: 'auto',
-    loop: true,
+    modules: [Autoplay, Navigation],
+    spaceBetween: 30, //margen entre cada uno
+    slidesPerView: 'auto', // Muestra las marcas en una línea horizontal
+    loop: true, // Activar el modo loop
     autoplay: {
-      delay: 2000,
+      delay: 3000, // Cambia de marca cada 3 segundos
       disableOnInteraction: false,
     },
+    navigation: true, // Flechas de navegación
     breakpoints: {
-      640: { slidesPerView: 3 },
-      768: { slidesPerView: 4 },
-      1024: { slidesPerView: 5 }
+      // Ajustes responsivos
+      640: {
+        spaceBetween: 20,
+        slidesPerView: 3,
+      },
+      1024: {
+        spaceBetween: 30,
+        slidesPerView: 5,
+      },
     },
   };
 
+
+  
   return (
-    <div className="min-h-screen bg-[#F0F4F8] flex flex-col">
-      {/* Hero Section con Carrusel de Videos */}
-      <section className="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+    <div className="min-h-screen w-full">
+      {/* Carrusel de videos */}
+      <div className="w-full h-[500px] relative">
         <Swiper {...swiperParams} className="w-full h-full">
           <SwiperSlide>
             <video
@@ -98,155 +114,273 @@ const Home = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F0F4F8] to-transparent"></div>
-      </section>
+      </div>
+
+      
 
       {/* Sección de Productos Destacados */}
-      <section className="py-20 px-4 max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#087989] mb-4">
-            Nuestros <span className="text-[#178FA8]">Productos Destacados</span>
+      <div id="productos" className="py-16 bg-gris-claro">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          {/* Título */}
+          <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-4xl font-bold mb-4">
+            Nuestros Productos Destacados
           </h2>
-          <p className="text-xl text-[#178FA8] max-w-2xl mx-auto">
-            Calidad, innovación y resultados garantizados. Descubre los productos que marcan la diferencia.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            {
-              img: lavadoAutomotriz,
-              title: "Lavado Automotriz",
-              description: "Brillo impecable y protección superior para tu vehículo."
-            },
-            {
-              img: liquidosHogar,
-              title: "Líquidos para el hogar",
-              description: "Limpieza profunda y frescura en cada rincón de tu hogar."
-            },
-            {
-              img: articulosLimpieza,
-              title: "Artículos de Limpieza",
-              description: "Mantén tu espacio impecable con artículos esenciales."
-            },
-            {
-              img: papel,
-              title: "Papel y Bolsas de Basura",
-              description: "Soluciones confiables para el manejo de residuos."
-            }
-          ].map((product, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ y: -10 }}
-              className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <div className="bg-[#F0F4F8] p-4 rounded-xl mb-4 flex justify-center">
-                <img
-                  src={product.img}
-                  alt={product.title}
-                  className="w-32 h-32 object-contain"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-[#087989] mb-2">{product.title}</h3>
-              <p className="text-gray-700">{product.description}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* Sección de Marcas */}
-      <section className="py-20 bg-[#087989] text-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-4">
-            Marcas con las que <span className="text-[#F9D976]">trabajamos</span>
-          </h2>
-          <p className="text-xl text-center mb-12 max-w-3xl mx-auto">
-            Calidad que perdura, innovación que inspira. Productos cuidadosamente seleccionados para brindarte lo mejor.
+          {/* Subtítulo */}
+          <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
+          Calidad, innovación y resultados garantizados. Descubre los productos que marcan la diferencia.
           </p>
 
-          <Swiper {...marcasSwiperParams} className="py-8">
-            {[marca1, marca2, marca3, marca4, marca5, marca6, marca7].map((marca, index) => (
-              <SwiperSlide key={index} className="w-auto max-w-[200px]">
-                <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-sm hover:bg-white/20 transition-all duration-300 h-60 flex items-center justify-center">
-                  <img
-                    src={marca}
-                    alt={`Marca ${index + 1}`}
-                    className="max-h-50 object-contain"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {/* Lista de Productos */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* Producto 1 */}
+            <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={lavadoAutomotriz}
+                alt="Lavado Automotriz"
+                className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+             
+              <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
+                Lavado Automotriz
+              </h3>
+              <p className="text-gray-700 group-hover:text-blanco-puro">
+              Brillo impecable y protección superior para tu vehículo. 
+              ¡Descubre nuestros productos!
+              </p>
+            </div>
+
+            {/* Producto 2 */}
+            <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={liquidosHogar}
+                alt="Líquidos para el hogar"
+                className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
+                Líquidos para el hogar
+              </h3>
+              <p className="text-gray-700 group-hover:text-blanco-puro">
+              Limpieza profunda y frescura en cada rincón de tu hogar. 
+              ¡Transforma tu espacio con nuestra línea de líquidos especializados!
+              </p>
+            </div>
+
+            {/* Producto 3 */}
+            <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={articulosLimpieza}
+                alt="Artículos de Limpieza"
+                className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
+                Artículos de Limpieza
+              </h3>
+              <p className="text-gray-700 group-hover:text-blanco-puro">
+              Mantén tu espacio impecable con nuestra selección de artículos de limpieza esenciales.
+              </p>
+            </div>
+            {/* Producto 4 */}
+            <div className="group p-6 rounded-lg shadow-lg text-center bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={papel}
+                alt="Papel y Bolsas de Basura"
+                className="mx-auto mb-4 w-32 h-32 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <h3 style={{ color: 'var(--turquesa-oscuro)' }} className="text-xl font-bold mb-2 group-hover:text-blanco-puro">
+              Papel y Bolsas de Basura
+              </h3>
+              <p className="text-gray-700 group-hover:text-blanco-puro">
+              Soluciones confiables para el manejo de residuos y la higiene diaria. ¡Descúbrelas!
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+
+     
+
+       {/* MARCAS */}
+       <div className="py-16 bg-gris-claro">
+      <div className="max-w-8xl mx-auto px-4 text-center">
+        {/* Título */}
+        <h2 style={{ color: 'var(--turquesa-oscuro)' }} className="text-4xl font-bold mb-4">
+          Marcas con las que trabajamos
+        </h2>
+        {/* Descripción */}
+        <p style={{ color: 'var(--turquesa-claro)' }} className="text-xl mb-12">
+        Calidad que perdura, innovación que inspira. Nuestros productos de línea han sido 
+        cuidadosamente seleccionados para brindarte lo mejor en funcionalidad y estilo.
+                </p>
+
+        {/* Carrusel de Marcas */}
+        <Swiper {...marcasSwiperParams} className="w-full">
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca1}
+                alt="Marca 1"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca2}
+                alt="Marca 2"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca3}
+                alt="Marca 3"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca4}
+                alt="Marca 4"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca5}
+                alt="Marca 5"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca6}
+                alt="Marca 6"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-auto">
+            <div className="p-2 md:p-4 rounded-lg shadow-lg bg-blanco-puro transition-all duration-300 hover:bg-turquesa-claro hover:scale-105">
+              <img
+                src={marca7}
+                alt="Marca 7"
+                className="mx-auto w-48 h-48 md:w-64 md:h-64 object-contain" // Tamaño más grande en pantallas grandes
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </div>
 
       {/* Sección Sobre Nosotros */}
-      <section className="relative py-20">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed -z-10"
-          style={{ backgroundImage: `url(${limpieza})` }}
-        >
-          <div className="absolute inset-0 bg-black/50"></div>
-        </div>
-        
-        <div className="max-w-6xl mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-2xl max-w-2xl"
-          >
-            <h2 className="text-4xl font-bold text-[#087989] mb-6">
-              Sobre <span className="text-[#178FA8]">Nosotros</span>
-            </h2>
-            <p className="text-lg text-gray-700 mb-8 text-justify">
-              Fabricamos productos químicos de limpieza para el sector automotriz, hogar, industrial, hotelero y restaurantero. Distribuimos jarcierías específicas para las diferentes áreas de trabajo, instalación de equipamiento necesario y servicio de limpieza.
-            </p>
-            <Link
-              to="/about"
-              className="inline-block px-8 py-3 bg-gradient-to-r from-[#178FA8] to-[#087989] text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
-            >
-              Conócenos Más
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <div
+      className="relative h-[500px] flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${limpieza})` }}
+    >
+      {/* Overlay para oscurecer la imagen de fondo */}
+      <div className="absolute inset-0 bg-black opacity-40"></div>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#A3D977] to-[#F9D976]">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-8 text-[#087989]">
-            ¿Listo para probar nuestros productos?
-          </h2>
-          <Link
-            to="/contact"
-            className="relative inline-flex items-center justify-center 
-                       px-10 py-4 font-bold rounded-full overflow-hidden
-                       text-white hover:text-[#087989]
-                       transition-all duration-500 ease-in-out
-                       shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
-                       hover:scale-105 group"
-            style={{ background: "#178FA8" }}
-          >
-            <span className="relative z-10 flex items-center">
-              Contáctanos
-              <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
-                →
-              </span>
-            </span>
-            <span 
-              className="absolute inset-0 z-0 rounded-full 
-                         bg-gradient-to-r from-[#F9D976] to-[#A3D977]
-                         opacity-0 group-hover:opacity-100
-                         transition-opacity duration-500"
-            ></span>
-          </Link>
-        </div>
-      </section>
+      {/* Recuadro con información (animado con Framer Motion) */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }} // Estado inicial: invisible y desplazado hacia abajo
+        whileInView={{ opacity: 1, y: 0 }} // Estado final: visible y en su posición original
+        transition={{ duration: 0.8, ease: 'easeOut' }} // Duración y tipo de animación
+        viewport={{ twice: true }} // La animación solo se ejecuta una vez
+        className="relative z-10 bg-white bg-opacity-90 p-6 md:p-8 rounded-xl shadow-2xl w-full md:max-w-2xl mx-4 md:mx-8 text-left transform transition-all hover:scale-105 hover:bg-opacity-100"
+      >
+        <h2 className="text-4xl font-bold mb-6 text-[#087989]">
+          Sobre Nosotros
+        </h2>
+        <p className="text-lg mb-8 text-gray-700 text-justify">
+        Fabricamos productos químicos de limpieza para el sector 
+        automotriz, hogar, industrial, hotelero y restaurantera, 
+        distribuimos jarcierías específicas para las diferentes áreas de trabajo, 
+        instalacion de equipamiento necesario y servicio de limpieza.        </p>
+        <Link
+  to="/about"
+  className="relative inline-flex items-center justify-center 
+             px-10 py-3 font-bold rounded-full overflow-hidden
+             text-white hover:text-[#087989]
+             transition-all duration-500 ease-in-out
+             shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
+             hover:scale-105 group"
+  style={{
+    background: "#178FA8", /* Azul verdoso sólido inicial */
+  }}
+>
+  {/* Texto y flecha */}
+  <span className="relative z-10 flex items-center">
+    Conócenos Más
+    <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+      
+    </span>
+  </span>
 
-      {/* Footer */}
-      <Footer />
+  {/* Capa de transición */}
+  <span 
+    className="absolute inset-0 z-0 rounded-full 
+               bg-gradient-to-r from-[#F9D976] to-[#A3D977] /* Gradiente amarillo-verde */
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-500"
+  ></span>
+</Link>
+
+
+      </motion.div>
+    </div>
+
+
+{/* Llamado a la Acción (CTA) */}
+<div className="bg-[#A3D977] py-16"> {/* Fondo verde lima */}
+  <div className="max-w-4xl mx-auto text-center px-4">
+    <h2 className="text-[#087989] text-3xl font-bold mb-8">
+      ¿Listo para probar nuestros productos?
+    </h2>
+    
+    <Link
+      to="/contact"
+      className="relative inline-flex items-center justify-center 
+                 px-10 py-4 font-bold rounded-full overflow-hidden
+                 text-[#087989] hover:text-white
+                 transition-all duration-500 ease-in-out
+                 shadow-lg hover:shadow-xl shadow-[#F9D97650] hover:shadow-[#08798960]
+                 hover:scale-105 group"
+      style={{
+        background: "#F9D976", /* Amarillo pastel sólido inicial */
+      }}
+    >
+      {/* Texto y flecha */}
+      <span className="relative z-10 flex items-center">
+        Contáctanos
+        <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+          
+        </span>
+      </span>
+
+      {/* Capa de transición */}
+      <span 
+        className="absolute inset-0 z-0 rounded-full 
+                   bg-gradient-to-r from-[#A3D977] to-[#178FA8] 
+                   opacity-0 group-hover:opacity-100
+                   transition-opacity duration-500"
+      ></span>
+    </Link>
+  </div>
+</div>
+
+
+    {/*footer*/ }
+    <Footer />
+
     </div>
   );
 };
