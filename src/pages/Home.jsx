@@ -180,38 +180,57 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Sección Sobre Nosotros */}
-      <section className="relative py-20">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed -z-10"
-          style={{ backgroundImage: `url(${limpieza})` }}
-        >
-          <div className="absolute inset-0 bg-black/50"></div>
-        </div>
-        
-        <div className="max-w-6xl mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-2xl max-w-2xl"
-          >
-            <h2 className="text-4xl font-bold text-[#087989] mb-6">
-              Sobre <span className="text-[#178FA8]">Nosotros</span>
-            </h2>
-            <p className="text-lg text-gray-700 mb-8 text-justify">
-              Fabricamos productos químicos de limpieza para el sector automotriz, hogar, industrial, hotelero y restaurantero. Distribuimos jarcierías específicas para las diferentes áreas de trabajo, instalación de equipamiento necesario y servicio de limpieza.
-            </p>
-            <Link
-              to="/about"
-              className="inline-block px-8 py-3 bg-gradient-to-r from-[#178FA8] to-[#087989] text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
-            >
-              Conócenos Más
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+     {/* Sección Sobre Nosotros */}
+<section className="relative py-12 md:py-24 text-white">
+  <div
+    className="relative min-h-[300px] md:h-[500px] flex items-center py-8 md:py-0 justify-center bg-cover bg-center bg-fixed"
+    style={{ backgroundImage: `url(${limpieza})` }}
+  >
+    {/* Overlay para oscurecer la imagen de fondo */}
+    <div className="absolute inset-0 bg-black opacity-40"></div>
+
+    {/* Recuadro con información (animado con Framer Motion) */}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
+      viewport={{ once: true }}
+      className="relative z-10 bg-white bg-opacity-90 p-4 mx-4 md:p-8 rounded-xl shadow-2xl w-full max-w-md md:max-w-2xl transform transition-all hover:scale-105 hover:bg-opacity-100"
+    >
+      <h2 className="text-4xl font-bold mb-6 text-[#087989]">
+        Sobre Nosotros
+      </h2>
+      <p className="text-lg mb-8 text-gray-700 text-justify">
+        Fabricamos productos químicos de limpieza para el sector 
+        automotriz, hogar, industrial, hotelero y restaurantero, 
+        distribuimos jarcierías específicas para las diferentes áreas de trabajo, 
+        instalación de equipamiento necesario y servicio de limpieza.
+      </p>
+      <Link
+        to="/about"
+        className="relative inline-flex items-center justify-center 
+                   px-10 py-3 font-bold rounded-full overflow-hidden
+                   text-white hover:text-[#087989]
+                   transition-all duration-500 ease-in-out
+                   shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
+                   hover:scale-105 group"
+        style={{ background: "#178FA8" }}
+      >
+        <span className="relative z-10 flex items-center">
+          Conócenos Más
+          <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
+          </span>
+        </span>
+        <span 
+          className="absolute inset-0 z-0 rounded-full 
+                     bg-gradient-to-r from-[#F9D976] to-[#A3D977]
+                     opacity-0 group-hover:opacity-100
+                     transition-opacity duration-500"
+        ></span>
+      </Link>
+    </motion.div>
+  </div>
+</section>
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-[#A3D977] to-[#F9D976]">
