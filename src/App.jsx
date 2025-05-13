@@ -8,6 +8,7 @@ import Products from './pages/Products';
 import Services from './pages/Services';
 import Navbar from './components/Navbar';
 import './colors.css'
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css'
 
@@ -16,8 +17,8 @@ function App() {
 
   return (
     <Router>
-      {/* Navbar */}
       <Navbar />
+      <ScrollToTop />
 
       {/* Rutas */}
       <Routes>
