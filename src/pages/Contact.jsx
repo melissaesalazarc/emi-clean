@@ -7,6 +7,43 @@ import { getFirestore } from "firebase/firestore";
 import Footer from '../components/Footer';
 import { motion, AnimatePresence } from 'framer-motion'; 
 
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    setIsSubmitting(true);
+    
+    const response = await fetch('http://localhost:3000/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      alert('¡Mensaje enviado!');
+      setSubmitSuccess(true);
+    } else {
+      console.error('Error:', data);
+      alert('Hubo un problema al enviar el mensaje.');
+    }
+  } catch (error) {
+    console.error('Error al enviar el correo:', error);
+    alert('Hubo un error al enviar el mensaje.');
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
+
 const Contact = () => {
   // Paleta de colores (coherente con tu marca)
   const COLORS = {

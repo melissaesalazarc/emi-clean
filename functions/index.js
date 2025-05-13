@@ -1,19 +1,40 @@
-/**
- * Import function triggers from their respective submodules:
- *
- * const {onCall} = require("firebase-functions/v2/https");
- * const {onDocumentWritten} = require("firebase-functions/v2/firestore");
- *
- * See a full list of supported triggers at https://firebase.google.com/docs/functions
- */
+const functions = require("firebase-functions");
+const admin = require("firebase-admin");
+const nodemailer = require("nodemailer");
 
-const {onRequest} = require("firebase-functions/v2/https");
-const logger = require("firebase-functions/logger");
+admin.initializeApp();
 
-// Create and deploy your first functions
-// https://firebase.google.com/docs/functions/get-started
+// Configura el servicio de correo (usando Nodemailer con Gmail, por ejemplo)
+const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user: "melissaesalazarc@gmail.com",
+        pass: "Tamalero11"// Tu contraseña o una "contraseña de aplicación"
+    }
+});
 
-// exports.helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+// Función que se ejecuta cuando se agrega un cliente a Firestore
+exports.notifyNewCustomer = functions.firestore
+    .document("clientes/{clienteId}")  // Reemplaza con el nombre de tu colección
+    .onCreate((snapshot, context) => {
+        const newClient = snapshot.data();
+
+        // El contenido del correo
+        const mailOptions = {
+            from: "melissaesalazarc@gmail.com",
+            to: "melissasalazr@hotmail.com",
+            subject: "Nuevo Cliente Registrado",
+            text: `¡Hola! Hemos registrado un nuevo cliente:\n\nNombre: ${newClient.nombre}\nCorreo: ${newClient.correo}\nTeléfono: ${newClient.telefono}`
+        };
+
+        // Envía el correo
+        return transporter.sendMail(mailOptions)
+            .then(() => {
+                console.log("Correo enviado correctamente");
+                return null;
+            })
+            .catch((error) => {
+                console.error("Error al enviar el correo:", error);
+                throw new Error("Error al enviar el correo");
+            });
+    });
