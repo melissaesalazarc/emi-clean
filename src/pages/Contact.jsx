@@ -1,51 +1,11 @@
 import React, { useState } from 'react';
-import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaPaperPlane } from 'react-icons/fa';
-import { db } from '../firebase/firebaseConfig'; 
+import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaPaperPlane, FaWhatsapp } from 'react-icons/fa';
+import { db } from '../firebase/firebaseConfig';
 import { collection, addDoc } from 'firebase/firestore';
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"; 
 import Footer from '../components/Footer';
-import { motion, AnimatePresence } from 'framer-motion'; 
-
-
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  try {
-    setIsSubmitting(true);
-    
-    const response = await fetch('http://localhost:3000/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        message: formData.message,
-      }),
-    });
-
-    const data = await response.json();
-
-    if (response.ok) {
-      alert('¡Mensaje enviado!');
-      setSubmitSuccess(true);
-    } else {
-      console.error('Error:', data);
-      alert('Hubo un problema al enviar el mensaje.');
-    }
-  } catch (error) {
-    console.error('Error al enviar el correo:', error);
-    alert('Hubo un error al enviar el mensaje.');
-  } finally {
-    setIsSubmitting(false);
-  }
-};
-
+import { motion } from 'framer-motion';
 
 const Contact = () => {
-  // Paleta de colores (coherente con tu marca)
   const COLORS = {
     primary: '#087989',
     secondary: '#178FA8',
@@ -53,7 +13,6 @@ const Contact = () => {
     green: '#A3D977',
   };
 
-  // Estado del formulario
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -63,27 +22,56 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  // Manejar cambios en el formulario
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  // Enviar datos a Firebase
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     try {
-      await addDoc(collection(db, "contacts"), {
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        message: formData.message,
-      });
-      alert("¡Mensaje enviado!");
+      await addDoc(collection(db, "contacts"), formData);
+      setSubmitSuccess(true);
+      setFormData({ name: '', email: '', phone: '', message: '' });
     } catch (error) {
       console.error("Error al enviar:", error);
+      alert("Ocurrió un error al enviar el mensaje");
+    } finally {
+      setIsSubmitting(false);
     }
   };
+
+  // Datos de las sucursales
+  const sucursales = [
+    {
+      nombre: "Saltillo República Oriente",
+      telefono: "+52 1 844 405 9196",
+      whatsapp: "+52 1 844 405 9196",
+      email: "baemi.group@gmail.com",
+      direccion: "Quintana Roo 931, República Oriente, 25280 Saltillo, Coah.",
+      mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14412.151058559093!2d-100.99443647846084!3d25.437000942409806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86887374d52d0b85%3A0x11be2e8cc0625ee0!2sEMI%20Clean%20Saltillo!5e0!3m2!1ses!2smx!4v1747200099350!5m2!1ses!2smx" 
+    
+    },
+    {
+      nombre: "Saltillo Tulipanes",
+      telefono: "+52 1 844 405 9196",
+      whatsapp: "+52 1 844 405 9196",
+      email: "baemi.group@gmail.com",
+      direccion: "Local #16 Plaza Tulipanes (Blvd. Eulalio Gtz y Av. Don Juan Saade Murra), Saltillo, Coah.",
+      mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.227654586056!2d-100.9551343!3d25.4517304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868812e6a9c9f9a5%3A0x1d8a8b0d4b4b0b0b!2sBaemi%20Group!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx"
+    },
+    {
+      nombre: "CDMX",
+      telefono: "+52 55 5392 5651",
+      whatsapp: "+52 55 4536 0987",
+      email: "baemi.mx@gmail.com",
+      direccion: "Calle 22-A, no. 77, Santa Rosa, Alcaldía Gustavo A Madero, CDMX",
+      mapa:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15041.849371094473!2d-99.17932318081004!3d19.5217544096398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f900776b5711%3A0xd31dd1462418a360!2sComercializadora%20BAEMI%20Group!5e0!3m2!1ses!2smx!4v1747199921492!5m2!1ses!2smx" 
+
+
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-[#F0F4F8] flex flex-col">
@@ -91,173 +79,175 @@ const Contact = () => {
       <section className="relative h-64 flex items-center justify-center bg-gradient-to-br from-[#087989] to-[#178FA8] text-white text-center px-4">
         <div>
           <h1 className="text-4xl font-bold mb-4">Contáctanos</h1>
-          <p className="text-xl">Estamos aquí para ayudarte</p>
+          <p className="text-xl">Estamos aquí para ayudarte en cualquiera de nuestras sucursales</p>
         </div>
       </section>
 
-      {/* Información de Contacto + Formulario */}
-      <section className="py-16 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        {/* Datos de Contacto */}
-        <div className="space-y-8">
-          <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#087989] rounded-full text-white">
-              <FaPhone size={20} />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-[#096D73]">Teléfono</h3>
-              <p className="text-gray-600">(844) 405 9196</p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#178FA8] rounded-full text-white">
-              <FaEnvelope size={20} />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-[#096D73]">Email</h3>
-              <p className="text-gray-600">baemi.group@gmail.com</p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#F9D976] rounded-full text-[#096D73]">
-              <FaMapMarkerAlt size={20} />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-[#096D73]">Ubicación</h3>
-              <p className="text-gray-600">Quintana Roo 931, República Oriente,Saltillo, Coah.</p>
-              <p className="text-gray-600">Local #16 Plaza Tulipanes (Blvd. Eulalio Gtz y Av. Don Juan Saade Murra) Saltillo, Coah.</p>
-
-            </div>
-          </div>
-
-          {/* Mapa (Google Maps Embed) */}
-          <div className="pt-8">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d450.32463628088146!2d-100.9551342042818!3d25.451730448962284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI3JzA0LjkiTiAxMDDCsDU3JzE4LjgiVw!5e0!3m2!1ses!2smx!4v1747097099603!5m2!1ses!2smx" 
-              height="400"
-                width="100%"
-              style={{ border: 0, borderRadius: '12px' }}
-              allowFullScreen=""
-              loading="lazy"
-              title="Ubicación Baemi"
-            ></iframe>
-          </div>
-        </div>
-
-        {/* Formulario */}
-        <div className="bg-white rounded-xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-[#087989] mb-6">Envía un Mensaje</h2>
-          
-          {submitSuccess ? (
-            <div className="p-4 bg-green-100 text-green-800 rounded-lg mb-6">
-              ¡Gracias! Tu mensaje ha sido enviado. Nos pondremos en contacto pronto.
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-gray-700 mb-2">Nombre</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
-                  required
-                />
+      {/* Sección de Sucursales */}
+      <section className="py-16 px-4 max-w-6xl mx-auto">
+        <h2 className="text-3xl font-bold text-[#087989] mb-12 text-center">
+          Nuestras <span className="text-[#178FA8]">Sucursales</span>
+        </h2>
+        
+        <div className="grid md:grid-cols-3 gap-8">
+          {sucursales.map((sucursal, index) => (
+            <motion.div 
+              key={index}
+              whileHover={{ y: -5 }}
+              className="bg-white rounded-xl shadow-lg overflow-hidden"
+            >
+              <div className="h-48 overflow-hidden">
+                <iframe
+                  src={sucursal.mapa}
+                  className="w-full h-full"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  title={`Mapa ${sucursal.nombre}`}
+                ></iframe>
               </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#087989] mb-4">{sucursal.nombre}</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#087989] rounded-full text-white mt-1">
+                      <FaPhone size={14} />
+                    </div>
+                    <div>
+                      <p className="text-gray-600 font-medium">Teléfono:</p>
+                      <a href={`tel:${sucursal.telefono}`} className="text-gray-800 hover:text-[#178FA8]">
+                        {sucursal.telefono}
+                      </a>
+                    </div>
+                  </div>
 
-              <div>
-                <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
-                  required
-                />
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#25D366] rounded-full text-white mt-1">
+                      <FaWhatsapp size={14} />
+                    </div>
+                    <div>
+                      <p className="text-gray-600 font-medium">WhatsApp:</p>
+                      <a 
+                        href={`https://wa.me/${sucursal.whatsapp.replace(/\D/g, '')}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-[#25D366]"
+                      >
+                        {sucursal.whatsapp}
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#178FA8] rounded-full text-white mt-1">
+                      <FaEnvelope size={14} />
+                    </div>
+                    <div>
+                      <p className="text-gray-600 font-medium">Email:</p>
+                      <a href={`mailto:${sucursal.email}`} className="text-gray-800 hover:text-[#178FA8]">
+                        {sucursal.email}
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#F9D976] rounded-full text-[#087989] mt-1">
+                      <FaMapMarkerAlt size={14} />
+                    </div>
+                    <div>
+                      <p className="text-gray-600 font-medium">Dirección:</p>
+                      <p className="text-gray-800">{sucursal.direccion}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-gray-700 mb-2">Teléfono</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-gray-700 mb-2">Mensaje</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
-                  required
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-[#087989] to-[#178FA8] text-white py-3 px-6 rounded-lg font-bold hover:opacity-90 transition flex items-center justify-center gap-2"
-              >
-                {isSubmitting ? 'Enviando...' : (
-                  <>
-                    <FaPaperPlane /> Enviar Mensaje
-                  </>
-                )}
-              </button>
-            </form>
-          )}
+            </motion.div>
+          ))}
         </div>
       </section>
 
-       {/* WhatsApp CTA Section */}
-       <section className="py-20 bg-[#A3D977]">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-8 text-[#087989]">
-            ¿Prefieres contactarnos por WhatsApp?
-          </h2>
-          <a
-            href="https://wa.me/5218444059196?text=Hola%20Baemi%20Group,%20me%20interesan%20sus%20productos"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative inline-flex items-center justify-center 
-                       px-10 py-4 font-bold rounded-full overflow-hidden
-                       text-white hover:text-[#087989]
-                       transition-all duration-500 ease-in-out
-                       shadow-lg hover:shadow-xl shadow-[#178FA850] hover:shadow-[#F9D97660]
-                       hover:scale-105 group"
-            style={{ background: "#178FA8" }}
-          >
-            <span className="relative z-10 flex items-center">
-            <img 
-              src="/images/WhatsApp.png"
-              alt="WhatsApp"
-              className="w-6 h-6 mr-2"
-            />
+      {/* Formulario de Contacto */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-[#F0F4F8] rounded-xl shadow-lg p-8 md:p-12">
+            <h2 className="text-3xl font-bold text-[#087989] mb-6 text-center">
+              Envíanos un Mensaje
+            </h2>
+            
+            {submitSuccess ? (
+              <div className="p-4 bg-green-100 text-green-800 rounded-lg mb-6 text-center">
+                ¡Gracias! Tu mensaje ha sido enviado. Nos pondremos en contacto pronto.
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-gray-700 mb-2">Nombre</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
+                      required
+                    />
+                  </div>
 
-              Envíanos un WhatsApp
-              <span className="ml-2 transition-all duration-300 transform group-hover:translate-x-1">
-              </span>
-            </span>
-            <span 
-              className="absolute inset-0 z-0 rounded-full 
-                         bg-gradient-to-r from-[#F9D976] to-[#A3D977]
-                         opacity-0 group-hover:opacity-100
-                         transition-opacity duration-500"
-            ></span>
-          </a>
+                  <div>
+                    <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="phone" className="block text-gray-700 mb-2">Teléfono</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-gray-700 mb-2">Mensaje</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#178FA8] focus:border-transparent"
+                    required
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-[#087989] to-[#178FA8] text-white py-4 px-6 rounded-lg font-bold hover:opacity-90 transition flex items-center justify-center gap-2"
+                >
+                  {isSubmitting ? 'Enviando...' : (
+                    <>
+                      <FaPaperPlane /> Enviar Mensaje
+                    </>
+                  )}
+                </button>
+              </form>
+            )}
+          </div>
         </div>
       </section>
 
