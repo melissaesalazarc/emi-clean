@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">CDMX</h3>
             <ul className="space-y-2">
-              <li className="text-gray-200">Email: baemi.group@gmail.com</li>
+              <li className="text-gray-200">Email: baemi.mx@gmail.com</li>
               <li className="text-gray-200">Teléfono: +52 1 55 4536 0987</li>
               <li className="text-gray-200">Calle 22-A, no. 77, Santa Rosa, Alcaldia Gustavo A Madero, CDMX</li>
             </ul>
