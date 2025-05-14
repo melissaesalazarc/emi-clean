@@ -138,11 +138,12 @@ const Services = () => {
               className="w-full h-auto rounded-lg mx-auto border border-[#087989]/20"
             />
             
-            <div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
+            <div className="grid md:grid-cols-4 gap-6 mt-12 text-center">
               {[
                 "Monterrey, NL",
                 "Saltillo, Coah.",
-                "Ciudad de México"
+                "Ciudad de México",
+                "Estado de México"
               ].map((city, index) => (
                 <div key={index} className="flex items-center justify-center space-x-2">
                   <div className="w-3 h-3 bg-[#F9D976] rounded-full"></div>
