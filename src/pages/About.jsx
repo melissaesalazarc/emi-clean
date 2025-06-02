@@ -135,7 +135,7 @@ const About = () => {
                   <p className="text-[#F9D976] mb-4">Calle 22-A, no. 77, Santa Rosa, Alcaldia Gustavo A Madero, CDMX</p>
                   <div className="flex items-center space-x-2 text-white">
                     <span>🕒 9:00 - 18:00</span>
-                    <span>📞 (52) 1 55 4536 0987</span>
+                    <span>📞 (52) 1 55 2730 2115</span>
                   </div>
                   <a
                   href="https://maps.app.goo.gl/AkAPtBeXzxM2eD4Z9"

@@ -64,7 +64,7 @@ const Contact = () => {
     {
       nombre: "CDMX",
       telefono: "+52 55 5392 5651",
-      whatsapp: "+52 55 4536 0987",
+      whatsapp: "+52 55 2730 2115",
       email: "baemi.mx@gmail.com",
       direccion: "Calle 22-A, no. 77, Santa Rosa, Alcaldía Gustavo A Madero, CDMX",
       mapa:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15041.849371094473!2d-99.17932318081004!3d19.5217544096398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f900776b5711%3A0xd31dd1462418a360!2sComercializadora%20BAEMI%20Group!5e0!3m2!1ses!2smx!4v1747199921492!5m2!1ses!2smx" 
