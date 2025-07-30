@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 
 // Importar las imágenes y videos
+import baemiL from '../images/home/baemiLogo.png';
 import baemi from '../videos/baemi_home.mp4';
 import industrias from '../videos/industrias_home.mp4';
 import spray from '../videos/spray_home.mp4';
@@ -62,45 +63,57 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-[#F0F4F8] flex flex-col">
-      {/* Hero Section con Carrusel de Videos */}
-      <section className="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
-        <Swiper {...swiperParams} className="w-full h-full">
-          <SwiperSlide>
-            <video
-              src={baemi}
-              alt="Baemi"
-              className="w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <video
-              src={industrias}
-              alt="Industrias"
-              className="w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <video
-              src={spray}
-              alt="Spray"
-              className="w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          </SwiperSlide>
-        </Swiper>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F0F4F8] to-transparent"></div>
-      </section>
+  {/* Hero Section con Carrusel de Videos o Imágenes */}
+  <section className="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+    {/* Versión para pantallas grandes: Videos */}
+    <div className="hidden md:block w-full h-full">
+      <Swiper {...swiperParams} className="w-full h-full">
+        <SwiperSlide>
+          <video
+            src={baemi}
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <video
+            src={industrias}
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <video
+            src={spray}
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+
+    {/* Versión para móviles: Solo una imagen fija */}
+    <div className="block md:hidden w-full h-full">
+      <img
+        src={baemiL}
+        alt="Baemi"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    {/* Gradiente inferior */}
+    <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F0F4F8] to-transparent"></div>
+  </section>
+
 
       {/* Sección de Productos Destacados */}
       <section className="py-20 px-4 max-w-6xl mx-auto">
