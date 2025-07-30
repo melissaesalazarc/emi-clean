@@ -4,7 +4,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 
@@ -26,6 +26,7 @@ import papel from '../images/home/papel.png';
 import limpieza from '../images/home/limpieza.png';
 
 const Home = () => {
+  const navigate = useNavigate();
   // Configuración del carrusel principal
   const swiperParams = {
     modules: [Autoplay, Navigation, Pagination],
@@ -121,24 +122,26 @@ const Home = () => {
             },
             {
               img: liquidosHogar,
-              title: "Líquidos para el hogar",
+              title: "Líquidos para el Hogar",
               description: "Limpieza profunda y frescura en cada rincón de tu hogar."
             },
             {
               img: articulosLimpieza,
-              title: "Artículos de Limpieza",
+              title: "Jarcería",
               description: "Mantén tu espacio impecable con artículos esenciales."
             },
             {
               img: papel,
-              title: "Papel y Bolsas de Basura",
+              title: "Papel y Despachadores",
               description: "Soluciones confiables para el manejo de residuos."
             }
           ].map((product, index) => (
             <motion.div
               key={index}
               whileHover={{ y: -10 }}
-              className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+              onClick={() => navigate(`/products?category=${encodeURIComponent(product.title)}`)}
+
             >
               <div className="bg-[#F0F4F8] p-4 rounded-xl mb-4 flex justify-center">
                 <img

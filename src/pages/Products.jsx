@@ -1,17 +1,29 @@
 // src/pages/Productos.jsx
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Footer from '../components/Footer';
 import { categorias, productos, filtrarProductos } from '../data/productosData';
 
 const Productos = () => {
+  const location = useLocation();
+
   // Estado para el filtro activo
   const [activeFilter, setActiveFilter] = useState('Todos');
   const [searchTerm, setSearchTerm] = useState('');
 
+  // Aplicar categoría si viene por query param (solo al cargar)
+  useEffect(() => {
+    const queryParams = new URLSearchParams(location.search);
+    const categoriaDesdeURL = queryParams.get('category');
+
+    if (categoriaDesdeURL) {
+      setActiveFilter(categoriaDesdeURL);
+    }
+  }, [location.search]);
+
   // Filtrar productos usando la función importada
   const filteredProducts = filtrarProductos(productos, activeFilter, searchTerm);
-
+  
   return (
     <div className="min-h-screen bg-[#F0F4F8] flex flex-col">
       {/* Contenido principal */}
