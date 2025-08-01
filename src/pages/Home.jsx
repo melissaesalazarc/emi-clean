@@ -9,22 +9,22 @@ import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 
 // Importar las imágenes y videos
-import baemiL from '../images/home/baemiLogo.png';
+import baemiL from '../images/home/baemiLogo.webp';
 import baemi from '../videos/baemi_home.mp4';
 import industrias from '../videos/industrias_home.mp4';
 import spray from '../videos/spray_home.mp4';
-import marca1 from '../images/home/marca1.png';
-import marca2 from '../images/home/marca2.png';
-import marca3 from '../images/home/marca3.png';
-import marca4 from '../images/home/marca4.png';
-import marca5 from '../images/home/marca5.png';
-import marca6 from '../images/home/marca6.png';
-import marca7 from '../images/home/marca7.png';
-import articulosLimpieza from '../images/home/articulosLimpieza.png';
-import lavadoAutomotriz from '../images/home/lavadoAutomotriz.png';
-import liquidosHogar from '../images/home/liquidosHogar.png';
-import papel from '../images/home/papel.png';
-import limpieza from '../images/home/limpieza.png';
+import marca1 from '../images/home/marca1.webp';
+import marca2 from '../images/home/marca2.webp';
+import marca3 from '../images/home/marca3.webp';
+import marca4 from '../images/home/marca4.webp';
+import marca5 from '../images/home/marca5.webp';
+import marca6 from '../images/home/marca6.webp';
+import marca7 from '../images/home/marca7.webp';
+import articulosLimpieza from '../images/home/articulosLimpieza.webp';
+import lavadoAutomotriz from '../images/home/lavadoAutomotriz.webp';
+import liquidosHogar from '../images/home/liquidosHogar.webp';
+import papel from '../images/home/papel.webp';
+import limpieza from '../images/home/limpieza.webp';
 
 const Home = () => {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import logo from '../images/about/baemiLogo.png';
-import mision from '../images/about/misionImg.png';
+import logo from '../images/about/baemiLogo.webp';
+import mision from '../images/about/misionImg.webp';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -100,7 +100,7 @@ const About = () => {
               {/* Sucursal 1 */}
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
-                  src="/images/about/brep.jpg"
+                  src="/images/about/brep.webp"
                   alt="Sucursal Saltillo"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
@@ -125,7 +125,7 @@ const About = () => {
               {/* Sucursal 2 */}
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl h-96">
                 <img 
-                  src="/images/about/bcdmx.jpg"
+                  src="/images/about/bcdmx.webp"
                   alt="Sucursal CDMX"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />

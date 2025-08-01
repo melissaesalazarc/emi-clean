@@ -4,11 +4,17 @@ import sharp from 'sharp';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-// Esto es para poder usar __dirname con ESModules
+// Para usar __dirname con ESModules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const baseDir = path.join(__dirname, 'public/images');
+// Directorios a convertir
+const carpetasAConvertir = [
+  path.join(__dirname, 'public/images'),
+  path.join(__dirname, 'src/images/about'),
+  path.join(__dirname, 'src/images/cobertura'),
+  path.join(__dirname, 'src/images/home'),
+];
 
 function convertirDirectorio(dir) {
   fs.readdirSync(dir).forEach(file => {
@@ -21,6 +27,7 @@ function convertirDirectorio(dir) {
       const ext = path.extname(file).toLowerCase();
       const base = path.basename(file, ext);
 
+      // Solo convierte imágenes
       if (['.jpg', '.jpeg', '.png'].includes(ext)) {
         const output = path.join(dir, `${base}.webp`);
 
@@ -34,4 +41,5 @@ function convertirDirectorio(dir) {
   });
 }
 
-convertirDirectorio(baseDir);
+// Ejecutar conversión para todas las carpetas
+carpetasAConvertir.forEach(convertirDirectorio);
