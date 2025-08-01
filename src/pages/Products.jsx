@@ -114,9 +114,16 @@ const Productos = () => {
                     <button className="text-[#087989] font-medium hover:text-[#178FA8] transition-colors">
                       Ver detalles
                     </button>
-                    <button className="bg-[#F9D976] text-[#087989] px-4 py-2 rounded-lg font-semibold hover:bg-[#178FA8] hover:text-white transition-colors">
+                    <a
+                      href={`https://wa.me/5218444059196?text=${encodeURIComponent(
+                        `Hola, me interesa cotizar el producto: ${producto.nombre}. ¿Podrían brindarme más información?`
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-[#F9D976] text-[#087989] px-4 py-2 rounded-lg font-semibold hover:bg-[#178FA8] hover:text-white transition-colors"
+                    >
                       Cotizar
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
